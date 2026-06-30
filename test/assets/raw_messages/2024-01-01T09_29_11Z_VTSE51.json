@@ -1,0 +1,1673 @@
+{
+  "Report": {
+    "@xmlns": "http://xml.kishou.go.jp/jmaxml1/",
+    "@xmlns:jmx": "http://xml.kishou.go.jp/jmaxml1/",
+    "Control": {
+      "Title": "津波情報a",
+      "DateTime": "2024-01-01T09:29:11Z",
+      "Status": "通常",
+      "EditorialOffice": "気象庁本庁",
+      "PublishingOffice": "気象庁"
+    },
+    "Head": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/informationBasis1/",
+      "Title": "津波観測に関する情報",
+      "ReportDateTime": "2024-01-01T18:29:00+09:00",
+      "TargetDateTime": "2024-01-01T18:28:00+09:00",
+      "EventID": "20240101161010",
+      "InfoType": "発表",
+      "Serial": "23",
+      "InfoKind": "津波情報",
+      "InfoKindVersion": "1.0_1",
+      "Headline": {
+        "Text": "１日１８時２８分現在の、津波の観測値をお知らせします。"
+      }
+    },
+    "Body": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/body/seismology1/",
+      "@xmlns:jmx_eb": "http://xml.kishou.go.jp/jmaxml1/elementBasis1/",
+      "Tsunami": {
+        "Observation": {
+          "CodeDefine": {
+            "Type": [
+              {
+                "@xpath": "Item/Area/Code",
+                "#text": "津波予報区"
+              },
+              {
+                "@xpath": "Item/Station/Code",
+                "#text": "潮位観測点"
+              }
+            ]
+          },
+          "Item": [
+            {
+              "Area": {
+                "Name": "北海道日本海沿岸南部",
+                "Code": "111"
+              },
+              "Station": [
+                {
+                  "Name": "江差",
+                  "Code": "11102",
+                  "FirstHeight": {
+                    "ArrivalTime": "2024-01-01T17:55:00+09:00",
+                    "Initial": "押し"
+                  },
+                  "MaxHeight": {
+                    "DateTime": "2024-01-01T18:21:00+09:00",
+                    "jmx_eb:TsunamiHeight": {
+                      "@type": "これまでの最大波の高さ",
+                      "@unit": "m",
+                      "@description": "０．２ｍ",
+                      "#text": "0.2"
+                    }
+                  }
+                },
+                {
+                  "Name": "瀬棚港",
+                  "Code": "11121",
+                  "FirstHeight": {
+                    "ArrivalTime": "2024-01-01T17:54:00+09:00",
+                    "Initial": "押し"
+                  },
+                  "MaxHeight": {
+                    "DateTime": "2024-01-01T18:14:00+09:00",
+                    "jmx_eb:TsunamiHeight": {
+                      "@type": "これまでの最大波の高さ",
+                      "@unit": "m",
+                      "@description": "０．２ｍ",
+                      "#text": "0.2"
+                    }
+                  }
+                },
+                {
+                  "Name": "奥尻島奥尻港",
+                  "Code": "11123",
+                  "FirstHeight": {
+                    "Condition": "第１波識別不能"
+                  },
+                  "MaxHeight": {
+                    "DateTime": "2024-01-01T18:07:00+09:00",
+                    "jmx_eb:TsunamiHeight": {
+                      "@type": "これまでの最大波の高さ",
+                      "@unit": "m",
+                      "@description": "０．５ｍ",
+                      "#text": "0.5"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "Area": {
+                "Name": "青森県日本海沿岸",
+                "Code": "200"
+              },
+              "Station": {
+                "Name": "深浦",
+                "Code": "20001",
+                "FirstHeight": {
+                  "ArrivalTime": "2024-01-01T17:02:00+09:00",
+                  "Initial": "押し"
+                },
+                "MaxHeight": {
+                  "DateTime": "2024-01-01T18:04:00+09:00",
+                  "jmx_eb:TsunamiHeight": {
+                    "@type": "これまでの最大波の高さ",
+                    "@unit": "m",
+                    "@description": "０．３ｍ",
+                    "#text": "0.3"
+                  }
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "秋田県",
+                "Code": "230"
+              },
+              "Station": {
+                "Name": "秋田",
+                "Code": "23001",
+                "FirstHeight": {
+                  "ArrivalTime": "2024-01-01T17:23:00+09:00",
+                  "Initial": "押し"
+                },
+                "MaxHeight": {
+                  "DateTime": "2024-01-01T18:07:00+09:00",
+                  "jmx_eb:TsunamiHeight": {
+                    "@type": "これまでの最大波の高さ",
+                    "@unit": "m",
+                    "@description": "０．２ｍ",
+                    "#text": "0.2"
+                  }
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "山形県",
+                "Code": "240"
+              },
+              "Station": [
+                {
+                  "Name": "飛島",
+                  "Code": "24030",
+                  "FirstHeight": {
+                    "ArrivalTime": "2024-01-01T16:57:00+09:00",
+                    "Initial": "押し"
+                  },
+                  "MaxHeight": {
+                    "DateTime": "2024-01-01T17:52:00+09:00",
+                    "jmx_eb:TsunamiHeight": {
+                      "@type": "これまでの最大波の高さ",
+                      "@unit": "m",
+                      "@description": "０．４ｍ",
+                      "#text": "0.4"
+                    }
+                  }
+                },
+                {
+                  "Name": "酒田",
+                  "Code": "24001",
+                  "FirstHeight": {
+                    "ArrivalTime": "2024-01-01T17:12:00+09:00",
+                    "Initial": "押し"
+                  },
+                  "MaxHeight": {
+                    "DateTime": "2024-01-01T18:00:00+09:00",
+                    "jmx_eb:TsunamiHeight": {
+                      "@type": "これまでの最大波の高さ",
+                      "@unit": "m",
+                      "@description": "０．３ｍ",
+                      "#text": "0.3"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "Area": {
+                "Name": "新潟県上中下越",
+                "Code": "340"
+              },
+              "Station": [
+                {
+                  "Name": "新潟",
+                  "Code": "34001",
+                  "FirstHeight": {
+                    "ArrivalTime": "2024-01-01T16:56:00+09:00",
+                    "Initial": "押し"
+                  },
+                  "MaxHeight": {
+                    "DateTime": "2024-01-01T17:09:00+09:00",
+                    "jmx_eb:TsunamiHeight": {
+                      "@type": "これまでの最大波の高さ",
+                      "@unit": "m",
+                      "@description": "０．３ｍ",
+                      "#text": "0.3"
+                    }
+                  }
+                },
+                {
+                  "Name": "柏崎市鯨波",
+                  "Code": "34030",
+                  "FirstHeight": {
+                    "ArrivalTime": "2024-01-01T16:31:00+09:00",
+                    "Initial": "押し"
+                  },
+                  "MaxHeight": {
+                    "DateTime": "2024-01-01T16:36:00+09:00",
+                    "jmx_eb:TsunamiHeight": {
+                      "@type": "これまでの最大波の高さ",
+                      "@unit": "m",
+                      "@description": "０．４ｍ",
+                      "#text": "0.4"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "Area": {
+                "Name": "佐渡",
+                "Code": "341"
+              },
+              "Station": {
+                "Name": "佐渡市鷲崎",
+                "Code": "34103",
+                "FirstHeight": {
+                  "ArrivalTime": "2024-01-01T16:32:00+09:00",
+                  "Initial": "押し"
+                },
+                "MaxHeight": {
+                  "DateTime": "2024-01-01T17:39:00+09:00",
+                  "jmx_eb:TsunamiHeight": {
+                    "@type": "これまでの最大波の高さ",
+                    "@unit": "m",
+                    "@description": "０．３ｍ",
+                    "#text": "0.3"
+                  }
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "富山県",
+                "Code": "350"
+              },
+              "Station": {
+                "Name": "富山",
+                "Code": "35001",
+                "FirstHeight": {
+                  "ArrivalTime": "2024-01-01T16:13:00+09:00",
+                  "Initial": "引き"
+                },
+                "MaxHeight": {
+                  "DateTime": "2024-01-01T16:35:00+09:00",
+                  "jmx_eb:TsunamiHeight": {
+                    "@type": "これまでの最大波の高さ",
+                    "@unit": "m",
+                    "@description": "０．８ｍ",
+                    "#text": "0.8"
+                  }
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "石川県能登",
+                "Code": "360"
+              },
+              "Station": [
+                {
+                  "Name": "輪島港",
+                  "Code": "36020",
+                  "FirstHeight": {
+                    "ArrivalTime": "2024-01-01T16:10:00+09:00",
+                    "Initial": "押し"
+                  },
+                  "MaxHeight": {
+                    "DateTime": "2024-01-01T16:21:00+09:00",
+                    "jmx_eb:TsunamiHeight": {
+                      "@type": "これまでの最大波の高さ",
+                      "@unit": "m",
+                      "@description": "１．２ｍ以上",
+                      "#text": "1.2"
+                    }
+                  }
+                },
+                {
+                  "Name": "七尾港",
+                  "Code": "36021",
+                  "FirstHeight": {
+                    "ArrivalTime": "2024-01-01T16:37:00+09:00",
+                    "Initial": "押し"
+                  },
+                  "MaxHeight": {
+                    "Condition": "観測中"
+                  }
+                }
+              ]
+            },
+            {
+              "Area": {
+                "Name": "石川県加賀",
+                "Code": "361"
+              },
+              "Station": {
+                "Name": "金沢",
+                "Code": "36101",
+                "FirstHeight": {
+                  "Condition": "第１波識別不能"
+                },
+                "MaxHeight": {
+                  "DateTime": "2024-01-01T18:19:00+09:00",
+                  "jmx_eb:TsunamiHeight": {
+                    "@type": "これまでの最大波の高さ",
+                    "@unit": "m",
+                    "@description": "０．７ｍ",
+                    "#text": "0.7"
+                  }
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "福井県",
+                "Code": "370"
+              },
+              "Station": {
+                "Name": "敦賀港",
+                "Code": "37020",
+                "FirstHeight": {
+                  "ArrivalTime": "2024-01-01T17:33:00+09:00",
+                  "Initial": "押し"
+                },
+                "MaxHeight": {
+                  "DateTime": "2024-01-01T17:59:00+09:00",
+                  "jmx_eb:TsunamiHeight": {
+                    "@type": "これまでの最大波の高さ",
+                    "@unit": "m",
+                    "@description": "０．２ｍ",
+                    "#text": "0.2"
+                  }
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "京都府",
+                "Code": "500"
+              },
+              "Station": {
+                "Name": "舞鶴",
+                "Code": "50001",
+                "FirstHeight": {
+                  "Condition": "第１波識別不能"
+                },
+                "MaxHeight": {
+                  "DateTime": "2024-01-01T18:19:00+09:00",
+                  "jmx_eb:TsunamiHeight": {
+                    "@type": "これまでの最大波の高さ",
+                    "@unit": "m",
+                    "@description": "０．２ｍ",
+                    "#text": "0.2"
+                  }
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "兵庫県北部",
+                "Code": "520"
+              },
+              "Station": {
+                "Name": "豊岡市津居山",
+                "Code": "52001",
+                "FirstHeight": {
+                  "Condition": "第１波識別不能"
+                },
+                "MaxHeight": {
+                  "DateTime": "2024-01-01T18:24:00+09:00",
+                  "jmx_eb:TsunamiHeight": {
+                    "@type": "これまでの最大波の高さ",
+                    "@unit": "m",
+                    "@description": "０．３ｍ",
+                    "#text": "0.3"
+                  },
+                  "Revise": "更新"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "鳥取県",
+                "Code": "540"
+              },
+              "Station": [
+                {
+                  "Name": "岩美町田後",
+                  "Code": "54030",
+                  "FirstHeight": {
+                    "Condition": "第１波識別不能"
+                  },
+                  "MaxHeight": {
+                    "DateTime": "2024-01-01T17:46:00+09:00",
+                    "jmx_eb:TsunamiHeight": {
+                      "@type": "これまでの最大波の高さ",
+                      "@unit": "m",
+                      "@description": "０．１ｍ",
+                      "#text": "0.1"
+                    }
+                  }
+                },
+                {
+                  "Name": "境港市境",
+                  "Code": "54001",
+                  "FirstHeight": {
+                    "ArrivalTime": "2024-01-01T18:14:00+09:00",
+                    "Initial": "押し",
+                    "Revise": "追加"
+                  },
+                  "MaxHeight": {
+                    "DateTime": "2024-01-01T18:20:00+09:00",
+                    "jmx_eb:TsunamiHeight": {
+                      "@type": "これまでの最大波の高さ",
+                      "@unit": "m",
+                      "@description": "０．１ｍ",
+                      "#text": "0.1"
+                    },
+                    "Revise": "追加"
+                  }
+                }
+              ]
+            },
+            {
+              "Area": {
+                "Name": "隠岐",
+                "Code": "551"
+              },
+              "Station": {
+                "Name": "隠岐西郷",
+                "Code": "55101",
+                "FirstHeight": {
+                  "Condition": "第１波識別不能"
+                },
+                "MaxHeight": {
+                  "DateTime": "2024-01-01T17:50:00+09:00",
+                  "jmx_eb:TsunamiHeight": {
+                    "@type": "これまでの最大波の高さ",
+                    "@unit": "m",
+                    "@description": "０．３ｍ",
+                    "#text": "0.3"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "Forecast": {
+          "CodeDefine": {
+            "Type": [
+              {
+                "@xpath": "Item/Area/Code",
+                "#text": "津波予報区"
+              },
+              {
+                "@xpath": "Item/Category/Kind/Code",
+                "#text": "警報等情報要素／津波警報・注意報・予報"
+              },
+              {
+                "@xpath": "Item/Category/LastKind/Code",
+                "#text": "警報等情報要素／津波警報・注意報・予報"
+              },
+              {
+                "@xpath": "Item/Station/Code",
+                "#text": "潮位観測点"
+              }
+            ]
+          },
+          "Item": [
+            {
+              "Area": {
+                "Name": "石川県能登",
+                "Code": "360"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "大津波警報：発表",
+                  "Code": "53"
+                },
+                "LastKind": {
+                  "Name": "津波警報",
+                  "Code": "51"
+                }
+              },
+              "FirstHeight": {
+                "Condition": "第１波の到達を確認"
+              },
+              "MaxHeight": {
+                "jmx_eb:TsunamiHeight": {
+                  "@type": "津波の高さ",
+                  "@unit": "m",
+                  "@description": "５ｍ",
+                  "#text": "5"
+                }
+              },
+              "Station": [
+                {
+                  "Name": "珠洲市長橋",
+                  "Code": "36001",
+                  "HighTideDateTime": "2024-01-01T19:49:00+09:00",
+                  "FirstHeight": {
+                    "Condition": "津波到達中と推測"
+                  }
+                },
+                {
+                  "Name": "輪島港",
+                  "Code": "36020",
+                  "HighTideDateTime": "2024-01-01T19:47:00+09:00",
+                  "FirstHeight": {
+                    "Condition": "第１波の到達を確認"
+                  }
+                },
+                {
+                  "Name": "七尾港",
+                  "Code": "36021",
+                  "HighTideDateTime": "2024-01-01T19:40:00+09:00",
+                  "FirstHeight": {
+                    "Condition": "第１波の到達を確認"
+                  }
+                }
+              ]
+            },
+            {
+              "Area": {
+                "Name": "山形県",
+                "Code": "240"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波警報",
+                  "Code": "51"
+                },
+                "LastKind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                }
+              },
+              "FirstHeight": {
+                "Condition": "第１波の到達を確認"
+              },
+              "MaxHeight": {
+                "jmx_eb:TsunamiHeight": {
+                  "@type": "津波の高さ",
+                  "@unit": "m",
+                  "@description": "３ｍ",
+                  "#text": "3"
+                }
+              },
+              "Station": [
+                {
+                  "Name": "酒田",
+                  "Code": "24001",
+                  "HighTideDateTime": "2024-01-01T20:10:00+09:00",
+                  "FirstHeight": {
+                    "Condition": "第１波の到達を確認"
+                  }
+                },
+                {
+                  "Name": "飛島",
+                  "Code": "24030",
+                  "HighTideDateTime": "2024-01-01T20:05:00+09:00",
+                  "FirstHeight": {
+                    "Condition": "第１波の到達を確認"
+                  }
+                },
+                {
+                  "Name": "鶴岡市鼠ケ関",
+                  "Code": "24031",
+                  "HighTideDateTime": "2024-01-01T20:07:00+09:00",
+                  "FirstHeight": {
+                    "Condition": "津波到達中と推測"
+                  }
+                }
+              ]
+            },
+            {
+              "Area": {
+                "Name": "新潟県上中下越",
+                "Code": "340"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波警報",
+                  "Code": "51"
+                },
+                "LastKind": {
+                  "Name": "津波警報",
+                  "Code": "51"
+                }
+              },
+              "FirstHeight": {
+                "Condition": "第１波の到達を確認"
+              },
+              "MaxHeight": {
+                "jmx_eb:TsunamiHeight": {
+                  "@type": "津波の高さ",
+                  "@unit": "m",
+                  "@description": "３ｍ",
+                  "#text": "3"
+                }
+              },
+              "Station": [
+                {
+                  "Name": "新潟",
+                  "Code": "34001",
+                  "HighTideDateTime": "2024-01-01T19:47:00+09:00",
+                  "FirstHeight": {
+                    "Condition": "第１波の到達を確認"
+                  }
+                },
+                {
+                  "Name": "粟島",
+                  "Code": "34003",
+                  "HighTideDateTime": "2024-01-01T19:56:00+09:00",
+                  "FirstHeight": {
+                    "Condition": "津波到達中と推測"
+                  }
+                },
+                {
+                  "Name": "柏崎市鯨波",
+                  "Code": "34030",
+                  "HighTideDateTime": "2024-01-01T19:55:00+09:00",
+                  "FirstHeight": {
+                    "Condition": "第１波の到達を確認"
+                  }
+                }
+              ]
+            },
+            {
+              "Area": {
+                "Name": "佐渡",
+                "Code": "341"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波警報",
+                  "Code": "51"
+                },
+                "LastKind": {
+                  "Name": "津波警報",
+                  "Code": "51"
+                }
+              },
+              "FirstHeight": {
+                "Condition": "第１波の到達を確認"
+              },
+              "MaxHeight": {
+                "jmx_eb:TsunamiHeight": {
+                  "@type": "津波の高さ",
+                  "@unit": "m",
+                  "@description": "３ｍ",
+                  "#text": "3"
+                }
+              },
+              "Station": {
+                "Name": "佐渡市鷲崎",
+                "Code": "34103",
+                "HighTideDateTime": "2024-01-01T20:00:00+09:00",
+                "FirstHeight": {
+                  "Condition": "第１波の到達を確認"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "富山県",
+                "Code": "350"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波警報",
+                  "Code": "51"
+                },
+                "LastKind": {
+                  "Name": "津波警報",
+                  "Code": "51"
+                }
+              },
+              "FirstHeight": {
+                "Condition": "第１波の到達を確認"
+              },
+              "MaxHeight": {
+                "jmx_eb:TsunamiHeight": {
+                  "@type": "津波の高さ",
+                  "@unit": "m",
+                  "@description": "３ｍ",
+                  "#text": "3"
+                }
+              },
+              "Station": [
+                {
+                  "Name": "富山",
+                  "Code": "35001",
+                  "HighTideDateTime": "2024-01-01T19:36:00+09:00",
+                  "FirstHeight": {
+                    "Condition": "第１波の到達を確認"
+                  }
+                },
+                {
+                  "Name": "伏木富山港新湊",
+                  "Code": "35021",
+                  "HighTideDateTime": "2024-01-01T19:36:00+09:00",
+                  "FirstHeight": {
+                    "Condition": "津波到達中と推測"
+                  }
+                }
+              ]
+            },
+            {
+              "Area": {
+                "Name": "石川県加賀",
+                "Code": "361"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波警報",
+                  "Code": "51"
+                },
+                "LastKind": {
+                  "Name": "津波警報",
+                  "Code": "51"
+                }
+              },
+              "FirstHeight": {
+                "Condition": "第１波の到達を確認"
+              },
+              "MaxHeight": {
+                "jmx_eb:TsunamiHeight": {
+                  "@type": "津波の高さ",
+                  "@unit": "m",
+                  "@description": "３ｍ",
+                  "#text": "3"
+                }
+              },
+              "Station": {
+                "Name": "金沢",
+                "Code": "36101",
+                "HighTideDateTime": "2024-01-01T19:39:00+09:00",
+                "FirstHeight": {
+                  "Condition": "第１波の到達を確認"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "福井県",
+                "Code": "370"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波警報",
+                  "Code": "51"
+                },
+                "LastKind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                }
+              },
+              "FirstHeight": {
+                "Condition": "第１波の到達を確認"
+              },
+              "MaxHeight": {
+                "jmx_eb:TsunamiHeight": {
+                  "@type": "津波の高さ",
+                  "@unit": "m",
+                  "@description": "３ｍ",
+                  "#text": "3"
+                }
+              },
+              "Station": [
+                {
+                  "Name": "坂井市三国",
+                  "Code": "37003",
+                  "HighTideDateTime": "2024-01-01T19:40:00+09:00",
+                  "FirstHeight": {
+                    "Condition": "津波到達中と推測"
+                  }
+                },
+                {
+                  "Name": "敦賀港",
+                  "Code": "37020",
+                  "HighTideDateTime": "2024-01-01T19:21:00+09:00",
+                  "FirstHeight": {
+                    "Condition": "第１波の到達を確認"
+                  }
+                }
+              ]
+            },
+            {
+              "Area": {
+                "Name": "兵庫県北部",
+                "Code": "520"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波警報",
+                  "Code": "51"
+                },
+                "LastKind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                }
+              },
+              "FirstHeight": {
+                "Condition": "第１波の到達を確認"
+              },
+              "MaxHeight": {
+                "jmx_eb:TsunamiHeight": {
+                  "@type": "津波の高さ",
+                  "@unit": "m",
+                  "@description": "３ｍ",
+                  "#text": "3"
+                }
+              },
+              "Station": {
+                "Name": "豊岡市津居山",
+                "Code": "52001",
+                "HighTideDateTime": "2024-01-01T19:26:00+09:00",
+                "FirstHeight": {
+                  "Condition": "第１波の到達を確認"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "北海道太平洋沿岸西部",
+                "Code": "102"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                },
+                "LastKind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "71"
+                }
+              },
+              "FirstHeight": {
+                "Condition": "津波到達中と推測"
+              },
+              "MaxHeight": {
+                "jmx_eb:TsunamiHeight": {
+                  "@type": "津波の高さ",
+                  "@unit": "m",
+                  "@description": "１ｍ",
+                  "#text": "1"
+                }
+              },
+              "Station": [
+                {
+                  "Name": "函館",
+                  "Code": "10202",
+                  "HighTideDateTime": "2024-01-01T17:56:00+09:00",
+                  "FirstHeight": {
+                    "Condition": "津波到達中と推測"
+                  }
+                },
+                {
+                  "Name": "苫小牧西港",
+                  "Code": "10203",
+                  "HighTideDateTime": "2024-01-01T17:33:00+09:00",
+                  "FirstHeight": {
+                    "Condition": "津波到達中と推測",
+                    "Revise": "更新"
+                  }
+                },
+                {
+                  "Name": "福島町吉岡",
+                  "Code": "10204",
+                  "HighTideDateTime": "2024-01-01T18:32:00+09:00",
+                  "FirstHeight": {
+                    "Condition": "津波到達中と推測"
+                  }
+                },
+                {
+                  "Name": "苫小牧東港",
+                  "Code": "10221",
+                  "HighTideDateTime": "2024-01-01T17:33:00+09:00",
+                  "FirstHeight": {
+                    "Condition": "津波到達中と推測",
+                    "Revise": "更新"
+                  }
+                },
+                {
+                  "Name": "白老港",
+                  "Code": "10222",
+                  "HighTideDateTime": "2024-01-01T17:34:00+09:00",
+                  "FirstHeight": {
+                    "Condition": "津波到達中と推測"
+                  }
+                },
+                {
+                  "Name": "渡島森港",
+                  "Code": "10223",
+                  "HighTideDateTime": "2024-01-01T17:42:00+09:00",
+                  "FirstHeight": {
+                    "Condition": "津波到達中と推測",
+                    "Revise": "更新"
+                  }
+                },
+                {
+                  "Name": "室蘭港",
+                  "Code": "10224",
+                  "HighTideDateTime": "2024-01-01T17:40:00+09:00",
+                  "FirstHeight": {
+                    "Condition": "津波到達中と推測",
+                    "Revise": "更新"
+                  }
+                }
+              ]
+            },
+            {
+              "Area": {
+                "Name": "北海道日本海沿岸北部",
+                "Code": "110"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                },
+                "LastKind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "71"
+                }
+              },
+              "FirstHeight": {
+                "Condition": "津波到達中と推測"
+              },
+              "MaxHeight": {
+                "jmx_eb:TsunamiHeight": {
+                  "@type": "津波の高さ",
+                  "@unit": "m",
+                  "@description": "１ｍ",
+                  "#text": "1"
+                }
+              },
+              "Station": [
+                {
+                  "Name": "稚内",
+                  "Code": "11001",
+                  "HighTideDateTime": "2024-01-02T04:16:00+09:00",
+                  "FirstHeight": {
+                    "ArrivalTime": "2024-01-01T18:40:00+09:00"
+                  }
+                },
+                {
+                  "Name": "留萌",
+                  "Code": "11002",
+                  "HighTideDateTime": "2024-01-01T20:43:00+09:00",
+                  "FirstHeight": {
+                    "Condition": "津波到達中と推測"
+                  }
+                },
+                {
+                  "Name": "小樽",
+                  "Code": "11003",
+                  "HighTideDateTime": "2024-01-01T20:36:00+09:00",
+                  "FirstHeight": {
+                    "Condition": "津波到達中と推測"
+                  }
+                },
+                {
+                  "Name": "石狩湾新港",
+                  "Code": "11022",
+                  "HighTideDateTime": "2024-01-01T20:40:00+09:00",
+                  "FirstHeight": {
+                    "Condition": "津波到達中と推測"
+                  }
+                },
+                {
+                  "Name": "利尻島沓形港",
+                  "Code": "11023",
+                  "HighTideDateTime": "2024-01-01T21:36:00+09:00",
+                  "FirstHeight": {
+                    "Condition": "津波到達中と推測"
+                  }
+                },
+                {
+                  "Name": "羽幌港",
+                  "Code": "11024",
+                  "HighTideDateTime": "2024-01-01T20:51:00+09:00",
+                  "FirstHeight": {
+                    "Condition": "津波到達中と推測"
+                  }
+                },
+                {
+                  "Name": "小樽市忍路",
+                  "Code": "11030",
+                  "HighTideDateTime": "2024-01-01T20:40:00+09:00",
+                  "FirstHeight": {
+                    "Condition": "津波到達中と推測"
+                  }
+                }
+              ]
+            },
+            {
+              "Area": {
+                "Name": "北海道日本海沿岸南部",
+                "Code": "111"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                },
+                "LastKind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                }
+              },
+              "FirstHeight": {
+                "Condition": "第１波の到達を確認"
+              },
+              "MaxHeight": {
+                "jmx_eb:TsunamiHeight": {
+                  "@type": "津波の高さ",
+                  "@unit": "m",
+                  "@description": "１ｍ",
+                  "#text": "1"
+                }
+              },
+              "Station": [
+                {
+                  "Name": "寿都",
+                  "Code": "11101",
+                  "HighTideDateTime": "2024-01-01T20:33:00+09:00",
+                  "FirstHeight": {
+                    "Condition": "津波到達中と推測"
+                  }
+                },
+                {
+                  "Name": "江差",
+                  "Code": "11102",
+                  "HighTideDateTime": "2024-01-02T05:45:00+09:00",
+                  "FirstHeight": {
+                    "Condition": "第１波の到達を確認"
+                  }
+                },
+                {
+                  "Name": "瀬棚港",
+                  "Code": "11121",
+                  "HighTideDateTime": "2024-01-01T21:02:00+09:00",
+                  "FirstHeight": {
+                    "Condition": "第１波の到達を確認"
+                  }
+                },
+                {
+                  "Name": "岩内港",
+                  "Code": "11122",
+                  "HighTideDateTime": "2024-01-01T20:20:00+09:00",
+                  "FirstHeight": {
+                    "Condition": "津波到達中と推測"
+                  }
+                },
+                {
+                  "Name": "奥尻島奥尻港",
+                  "Code": "11123",
+                  "HighTideDateTime": "2024-01-01T19:52:00+09:00",
+                  "FirstHeight": {
+                    "Condition": "第１波の到達を確認"
+                  }
+                },
+                {
+                  "Name": "奥尻島松江",
+                  "Code": "11130",
+                  "HighTideDateTime": "2024-01-01T20:10:00+09:00",
+                  "FirstHeight": {
+                    "Condition": "津波到達中と推測"
+                  }
+                }
+              ]
+            },
+            {
+              "Area": {
+                "Name": "青森県日本海沿岸",
+                "Code": "200"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                },
+                "LastKind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                }
+              },
+              "FirstHeight": {
+                "Condition": "第１波の到達を確認"
+              },
+              "MaxHeight": {
+                "jmx_eb:TsunamiHeight": {
+                  "@type": "津波の高さ",
+                  "@unit": "m",
+                  "@description": "１ｍ",
+                  "#text": "1"
+                }
+              },
+              "Station": [
+                {
+                  "Name": "深浦",
+                  "Code": "20001",
+                  "HighTideDateTime": "2024-01-01T20:14:00+09:00",
+                  "FirstHeight": {
+                    "Condition": "第１波の到達を確認"
+                  }
+                },
+                {
+                  "Name": "竜飛",
+                  "Code": "20002",
+                  "HighTideDateTime": "2024-01-01T18:11:00+09:00",
+                  "FirstHeight": {
+                    "Condition": "津波到達中と推測"
+                  }
+                }
+              ]
+            },
+            {
+              "Area": {
+                "Name": "秋田県",
+                "Code": "230"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                },
+                "LastKind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                }
+              },
+              "FirstHeight": {
+                "Condition": "第１波の到達を確認"
+              },
+              "MaxHeight": {
+                "jmx_eb:TsunamiHeight": {
+                  "@type": "津波の高さ",
+                  "@unit": "m",
+                  "@description": "１ｍ",
+                  "#text": "1"
+                }
+              },
+              "Station": {
+                "Name": "秋田",
+                "Code": "23001",
+                "HighTideDateTime": "2024-01-01T20:11:00+09:00",
+                "FirstHeight": {
+                  "Condition": "第１波の到達を確認"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "京都府",
+                "Code": "500"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                },
+                "LastKind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                }
+              },
+              "FirstHeight": {
+                "Condition": "第１波の到達を確認"
+              },
+              "MaxHeight": {
+                "jmx_eb:TsunamiHeight": {
+                  "@type": "津波の高さ",
+                  "@unit": "m",
+                  "@description": "１ｍ",
+                  "#text": "1"
+                }
+              },
+              "Station": {
+                "Name": "舞鶴",
+                "Code": "50001",
+                "HighTideDateTime": "2024-01-01T19:14:00+09:00",
+                "FirstHeight": {
+                  "Condition": "第１波の到達を確認"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "鳥取県",
+                "Code": "540"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                },
+                "LastKind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                }
+              },
+              "FirstHeight": {
+                "Condition": "第１波の到達を確認"
+              },
+              "MaxHeight": {
+                "jmx_eb:TsunamiHeight": {
+                  "@type": "津波の高さ",
+                  "@unit": "m",
+                  "@description": "１ｍ",
+                  "#text": "1"
+                }
+              },
+              "Station": [
+                {
+                  "Name": "境港市境",
+                  "Code": "54001",
+                  "HighTideDateTime": "2024-01-01T20:05:00+09:00",
+                  "FirstHeight": {
+                    "Condition": "第１波の到達を確認",
+                    "Revise": "更新"
+                  }
+                },
+                {
+                  "Name": "岩美町田後",
+                  "Code": "54030",
+                  "HighTideDateTime": "2024-01-01T19:19:00+09:00",
+                  "FirstHeight": {
+                    "Condition": "第１波の到達を確認"
+                  }
+                }
+              ]
+            },
+            {
+              "Area": {
+                "Name": "島根県出雲・石見",
+                "Code": "550"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                },
+                "LastKind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                }
+              },
+              "FirstHeight": {
+                "Condition": "津波到達中と推測"
+              },
+              "MaxHeight": {
+                "jmx_eb:TsunamiHeight": {
+                  "@type": "津波の高さ",
+                  "@unit": "m",
+                  "@description": "１ｍ",
+                  "#text": "1"
+                }
+              },
+              "Station": {
+                "Name": "浜田",
+                "Code": "55001",
+                "HighTideDateTime": "2024-01-02T03:10:00+09:00",
+                "FirstHeight": {
+                  "Condition": "津波到達中と推測"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "隠岐",
+                "Code": "551"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                },
+                "LastKind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                }
+              },
+              "FirstHeight": {
+                "Condition": "第１波の到達を確認"
+              },
+              "MaxHeight": {
+                "jmx_eb:TsunamiHeight": {
+                  "@type": "津波の高さ",
+                  "@unit": "m",
+                  "@description": "１ｍ",
+                  "#text": "1"
+                }
+              },
+              "Station": {
+                "Name": "隠岐西郷",
+                "Code": "55101",
+                "HighTideDateTime": "2024-01-01T19:22:00+09:00",
+                "FirstHeight": {
+                  "Condition": "第１波の到達を確認"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "山口県日本海沿岸",
+                "Code": "700"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                },
+                "LastKind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                }
+              },
+              "FirstHeight": {
+                "Condition": "津波到達中と推測"
+              },
+              "MaxHeight": {
+                "jmx_eb:TsunamiHeight": {
+                  "@type": "津波の高さ",
+                  "@unit": "m",
+                  "@description": "１ｍ",
+                  "#text": "1"
+                }
+              },
+              "Station": {
+                "Name": "下関市南風泊港",
+                "Code": "70021",
+                "HighTideDateTime": "2024-01-02T00:55:00+09:00",
+                "FirstHeight": {
+                  "ArrivalTime": "2024-01-01T19:30:00+09:00"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "福岡県日本海沿岸",
+                "Code": "711"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                },
+                "LastKind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "71"
+                }
+              },
+              "FirstHeight": {
+                "ArrivalTime": "2024-01-01T19:10:00+09:00"
+              },
+              "MaxHeight": {
+                "jmx_eb:TsunamiHeight": {
+                  "@type": "津波の高さ",
+                  "@unit": "m",
+                  "@description": "１ｍ",
+                  "#text": "1"
+                }
+              },
+              "Station": [
+                {
+                  "Name": "福岡市博多",
+                  "Code": "71101",
+                  "HighTideDateTime": "2024-01-02T00:48:00+09:00",
+                  "FirstHeight": {
+                    "ArrivalTime": "2024-01-01T19:50:00+09:00"
+                  }
+                },
+                {
+                  "Name": "北九州港日明",
+                  "Code": "71120",
+                  "HighTideDateTime": "2024-01-02T00:33:00+09:00",
+                  "FirstHeight": {
+                    "ArrivalTime": "2024-01-01T19:20:00+09:00"
+                  }
+                }
+              ]
+            },
+            {
+              "Area": {
+                "Name": "佐賀県北部",
+                "Code": "720"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                },
+                "LastKind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "71"
+                }
+              },
+              "FirstHeight": {
+                "ArrivalTime": "2024-01-01T19:40:00+09:00"
+              },
+              "MaxHeight": {
+                "jmx_eb:TsunamiHeight": {
+                  "@type": "津波の高さ",
+                  "@unit": "m",
+                  "@description": "１ｍ",
+                  "#text": "1"
+                }
+              },
+              "Station": [
+                {
+                  "Name": "唐津港",
+                  "Code": "72020",
+                  "HighTideDateTime": "2024-01-02T00:32:00+09:00",
+                  "FirstHeight": {
+                    "ArrivalTime": "2024-01-01T19:50:00+09:00"
+                  }
+                },
+                {
+                  "Name": "玄海町仮屋",
+                  "Code": "72030",
+                  "HighTideDateTime": "2024-01-02T00:22:00+09:00",
+                  "FirstHeight": {
+                    "ArrivalTime": "2024-01-01T19:50:00+09:00"
+                  }
+                }
+              ]
+            },
+            {
+              "Area": {
+                "Name": "壱岐・対馬",
+                "Code": "731"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                },
+                "LastKind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "71"
+                }
+              },
+              "FirstHeight": {
+                "Condition": "津波到達中と推測",
+                "Revise": "更新"
+              },
+              "MaxHeight": {
+                "jmx_eb:TsunamiHeight": {
+                  "@type": "津波の高さ",
+                  "@unit": "m",
+                  "@description": "１ｍ",
+                  "#text": "1"
+                }
+              },
+              "Station": [
+                {
+                  "Name": "対馬比田勝",
+                  "Code": "73102",
+                  "HighTideDateTime": "2024-01-02T00:10:00+09:00",
+                  "FirstHeight": {
+                    "ArrivalTime": "2024-01-01T18:40:00+09:00"
+                  }
+                },
+                {
+                  "Name": "対馬市厳原",
+                  "Code": "73110",
+                  "HighTideDateTime": "2024-01-02T00:03:00+09:00",
+                  "FirstHeight": {
+                    "ArrivalTime": "2024-01-01T19:10:00+09:00"
+                  }
+                },
+                {
+                  "Name": "壱岐島郷ノ浦港",
+                  "Code": "73120",
+                  "HighTideDateTime": "2024-01-02T00:16:00+09:00",
+                  "FirstHeight": {
+                    "ArrivalTime": "2024-01-01T19:30:00+09:00"
+                  }
+                }
+              ]
+            },
+            {
+              "Area": {
+                "Name": "北海道太平洋沿岸中部",
+                "Code": "101"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "71"
+                },
+                "LastKind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "71"
+                }
+              },
+              "MaxHeight": {
+                "jmx_eb:TsunamiHeight": {
+                  "@type": "津波の高さ",
+                  "@unit": "m",
+                  "@description": "０．２ｍ未満",
+                  "#text": "0.2"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "オホーツク海沿岸",
+                "Code": "120"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "71"
+                },
+                "LastKind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "71"
+                }
+              },
+              "MaxHeight": {
+                "jmx_eb:TsunamiHeight": {
+                  "@type": "津波の高さ",
+                  "@unit": "m",
+                  "@description": "０．２ｍ未満",
+                  "#text": "0.2"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "青森県太平洋沿岸",
+                "Code": "201"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "71"
+                },
+                "LastKind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "71"
+                }
+              },
+              "MaxHeight": {
+                "jmx_eb:TsunamiHeight": {
+                  "@type": "津波の高さ",
+                  "@unit": "m",
+                  "@description": "０．２ｍ未満",
+                  "#text": "0.2"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "陸奥湾",
+                "Code": "202"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "71"
+                },
+                "LastKind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "71"
+                }
+              },
+              "MaxHeight": {
+                "jmx_eb:TsunamiHeight": {
+                  "@type": "津波の高さ",
+                  "@unit": "m",
+                  "@description": "０．２ｍ未満",
+                  "#text": "0.2"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "長崎県西方",
+                "Code": "730"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "71"
+                },
+                "LastKind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "71"
+                }
+              },
+              "MaxHeight": {
+                "jmx_eb:TsunamiHeight": {
+                  "@type": "津波の高さ",
+                  "@unit": "m",
+                  "@description": "０．２ｍ未満",
+                  "#text": "0.2"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Earthquake": {
+        "OriginTime": "2024-01-01T16:10:00+09:00",
+        "ArrivalTime": "2024-01-01T16:10:00+09:00",
+        "Hypocenter": {
+          "Area": {
+            "Name": "石川県能登地方",
+            "Code": {
+              "@type": "震央地名",
+              "#text": "390"
+            },
+            "jmx_eb:Coordinate": {
+              "@description": "北緯３７．５度　東経１３７．２度　ごく浅い",
+              "@datum": "日本測地系",
+              "#text": "+37.5+137.2+0/"
+            },
+            "NameFromMark": "輪島の東北東３０ｋｍ付近",
+            "MarkCode": {
+              "@type": "震央補助",
+              "#text": "308"
+            },
+            "Direction": "東北東",
+            "Distance": {
+              "@unit": "km",
+              "#text": "30"
+            }
+          }
+        },
+        "jmx_eb:Magnitude": {
+          "@type": "Mj",
+          "@description": "Ｍ７．６",
+          "#text": "7.6"
+        }
+      },
+      "Comments": {
+        "WarningComment": {
+          "@codeType": "固定付加文",
+          "Text": "津波による潮位変化が観測されてから最大波が観測されるまでに数時間以上かかることがあります。\n　\n場所によっては、観測した津波の高さよりさらに大きな津波が到達しているおそれがあります。\n　\n今後、津波の高さは更に高くなることも考えられます。",
+          "Code": "0114 0111 0112"
+        }
+      }
+    }
+  }
+}

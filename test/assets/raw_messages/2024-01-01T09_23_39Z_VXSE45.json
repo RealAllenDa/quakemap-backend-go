@@ -1,0 +1,132 @@
+{
+  "Report": {
+    "@xmlns": "http://xml.kishou.go.jp/jmaxml1/",
+    "@xmlns:jmx": "http://xml.kishou.go.jp/jmaxml1/",
+    "Control": {
+      "Title": "緊急地震速報（地震動予報）",
+      "DateTime": "2024-01-01T09:23:39Z",
+      "Status": "通常",
+      "EditorialOffice": "気象庁本庁",
+      "PublishingOffice": "気象庁"
+    },
+    "Head": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/informationBasis1/",
+      "Title": "緊急地震速報（地震動予報）",
+      "ReportDateTime": "2024-01-01T18:23:39+09:00",
+      "TargetDateTime": "2024-01-01T18:23:39+09:00",
+      "EventID": "20240101182309",
+      "InfoType": "発表",
+      "Serial": "4",
+      "InfoKind": "緊急地震速報",
+      "InfoKindVersion": "1.2_0",
+      "Headline": {
+        "Text": null
+      }
+    },
+    "Body": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/body/seismology1/",
+      "@xmlns:jmx_eb": "http://xml.kishou.go.jp/jmaxml1/elementBasis1/",
+      "Earthquake": {
+        "OriginTime": "2024-01-01T18:23:07+09:00",
+        "ArrivalTime": "2024-01-01T18:23:09+09:00",
+        "Hypocenter": {
+          "Area": {
+            "Name": "石川県能登地方",
+            "Code": {
+              "@type": "震央地名",
+              "#text": "390"
+            },
+            "jmx_eb:Coordinate": {
+              "@description": "北緯３７．５度　東経１３７．３度　深さ　１０ｋｍ",
+              "@datum": "日本測地系",
+              "#text": "+37.5+137.3-10000/"
+            },
+            "ReduceName": "石川県",
+            "ReduceCode": {
+              "@type": "短縮用震央地名",
+              "#text": "9170"
+            },
+            "LandOrSea": "内陸"
+          },
+          "Accuracy": {
+            "Epicenter": {
+              "@rank": "4",
+              "@rank2": "4",
+              "#text": "NaN"
+            },
+            "Depth": {
+              "@rank": "4",
+              "#text": "NaN"
+            },
+            "MagnitudeCalculation": {
+              "@rank": "5",
+              "#text": "NaN"
+            },
+            "NumberOfMagnitudeCalculation": "1"
+          }
+        },
+        "jmx_eb:Magnitude": {
+          "@type": "Mj",
+          "@description": "Ｍ４．５",
+          "#text": "4.5"
+        }
+      },
+      "Intensity": {
+        "Forecast": {
+          "CodeDefine": {
+            "Type": [
+              {
+                "@xpath": "Pref/Code",
+                "#text": "緊急地震速報／府県予報区"
+              },
+              {
+                "@xpath": "Pref/Area/Code",
+                "#text": "地震情報／細分区域"
+              },
+              {
+                "@xpath": "Pref/Area/Category/Kind/Code",
+                "#text": "緊急地震速報"
+              }
+            ]
+          },
+          "ForecastInt": {
+            "From": "4",
+            "To": "4"
+          },
+          "ForecastLgInt": {
+            "From": "0",
+            "To": "0"
+          },
+          "Appendix": {
+            "MaxIntChange": "0",
+            "MaxLgIntChange": "0",
+            "MaxIntChangeReason": "0"
+          },
+          "Pref": {
+            "Name": "石川",
+            "Code": "9170",
+            "Area": {
+              "Name": "石川県能登",
+              "Code": "390",
+              "Category": {
+                "Kind": {
+                  "Name": "緊急地震速報（予報）",
+                  "Code": "01"
+                }
+              },
+              "ForecastInt": {
+                "From": "4",
+                "To": "4"
+              },
+              "ForecastLgInt": {
+                "From": "0",
+                "To": "0"
+              },
+              "Condition": "既に主要動到達と推測"
+            }
+          }
+        }
+      }
+    }
+  }
+}

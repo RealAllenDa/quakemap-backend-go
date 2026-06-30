@@ -1,0 +1,371 @@
+{
+  "Report": {
+    "@xmlns": "http://xml.kishou.go.jp/jmaxml1/",
+    "@xmlns:jmx": "http://xml.kishou.go.jp/jmaxml1/",
+    "Control": {
+      "Title": "震源・震度に関する情報",
+      "DateTime": "2024-01-02T09:53:11Z",
+      "Status": "通常",
+      "EditorialOffice": "気象庁本庁",
+      "PublishingOffice": "気象庁"
+    },
+    "Head": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/informationBasis1/",
+      "Title": "震源・震度情報",
+      "ReportDateTime": "2024-01-02T18:53:00+09:00",
+      "TargetDateTime": "2024-01-02T18:53:00+09:00",
+      "EventID": "20240102185013",
+      "InfoType": "発表",
+      "Serial": "1",
+      "InfoKind": "地震情報",
+      "InfoKindVersion": "1.0_1",
+      "Headline": {
+        "Text": "２日１８時５０分ころ、地震がありました。"
+      }
+    },
+    "Body": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/body/seismology1/",
+      "@xmlns:jmx_eb": "http://xml.kishou.go.jp/jmaxml1/elementBasis1/",
+      "Earthquake": {
+        "OriginTime": "2024-01-02T18:50:00+09:00",
+        "ArrivalTime": "2024-01-02T18:50:00+09:00",
+        "Hypocenter": {
+          "Area": {
+            "Name": "佐渡付近",
+            "Code": {
+              "@type": "震央地名",
+              "#text": "498"
+            },
+            "jmx_eb:Coordinate": {
+              "@description": "北緯３７．７度　東経１３７．６度　深さ　１０ｋｍ",
+              "@datum": "日本測地系",
+              "#text": "+37.7+137.6-10000/"
+            }
+          }
+        },
+        "jmx_eb:Magnitude": {
+          "@type": "Mj",
+          "@description": "Ｍ４．１",
+          "#text": "4.1"
+        }
+      },
+      "Intensity": {
+        "Observation": {
+          "CodeDefine": {
+            "Type": [
+              {
+                "@xpath": "Pref/Code",
+                "#text": "地震情報／都道府県等"
+              },
+              {
+                "@xpath": "Pref/Area/Code",
+                "#text": "地震情報／細分区域"
+              },
+              {
+                "@xpath": "Pref/Area/City/Code",
+                "#text": "気象・地震・火山情報／市町村等"
+              },
+              {
+                "@xpath": "Pref/Area/City/IntensityStation/Code",
+                "#text": "震度観測点"
+              }
+            ]
+          },
+          "MaxInt": "2",
+          "Pref": [
+            {
+              "Name": "新潟県",
+              "Code": "15",
+              "MaxInt": "2",
+              "Area": [
+                {
+                  "Name": "新潟県上越",
+                  "Code": "370",
+                  "MaxInt": "2",
+                  "City": [
+                    {
+                      "Name": "糸魚川市",
+                      "Code": "1521600",
+                      "MaxInt": "2",
+                      "IntensityStation": [
+                        {
+                          "Name": "糸魚川市大野＊",
+                          "Code": "1521620",
+                          "Int": "2"
+                        },
+                        {
+                          "Name": "糸魚川市一の宮",
+                          "Code": "1521600",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "糸魚川市青海＊",
+                          "Code": "1521632",
+                          "Int": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "上越市",
+                      "Code": "1522200",
+                      "MaxInt": "2",
+                      "IntensityStation": [
+                        {
+                          "Name": "上越市木田＊",
+                          "Code": "1522230",
+                          "Int": "2"
+                        },
+                        {
+                          "Name": "上越市大手町",
+                          "Code": "1522202",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "上越市柿崎区柿崎＊",
+                          "Code": "1522235",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "上越市大潟区土底浜＊",
+                          "Code": "1522236",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "上越市清里区荒牧＊",
+                          "Code": "1522241",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "上越市大島区岡＊",
+                          "Code": "1522244",
+                          "Int": "1"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "Name": "新潟県中越",
+                  "Code": "371",
+                  "MaxInt": "1",
+                  "City": [
+                    {
+                      "Name": "長岡市",
+                      "Code": "1520200",
+                      "MaxInt": "1",
+                      "IntensityStation": {
+                        "Name": "長岡市寺泊敦ケ曽根＊",
+                        "Code": "1520242",
+                        "Int": "1"
+                      }
+                    },
+                    {
+                      "Name": "柏崎市",
+                      "Code": "1520500",
+                      "MaxInt": "1",
+                      "IntensityStation": [
+                        {
+                          "Name": "柏崎市西山町池浦＊",
+                          "Code": "1520534",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "柏崎市日石町＊",
+                          "Code": "1520537",
+                          "Int": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "小千谷市",
+                      "Code": "1520800",
+                      "MaxInt": "1",
+                      "IntensityStation": {
+                        "Name": "小千谷市旭町＊",
+                        "Code": "1520821",
+                        "Int": "1"
+                      }
+                    },
+                    {
+                      "Name": "出雲崎町",
+                      "Code": "1540500",
+                      "MaxInt": "1",
+                      "IntensityStation": {
+                        "Name": "出雲崎町米田",
+                        "Code": "1540500",
+                        "Int": "1"
+                      }
+                    },
+                    {
+                      "Name": "刈羽村",
+                      "Code": "1550400",
+                      "MaxInt": "1",
+                      "IntensityStation": {
+                        "Name": "刈羽村割町新田＊",
+                        "Code": "1550433",
+                        "Int": "1"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Name": "新潟県佐渡",
+                  "Code": "375",
+                  "MaxInt": "1",
+                  "City": {
+                    "Name": "佐渡市",
+                    "Code": "1522400",
+                    "MaxInt": "1",
+                    "IntensityStation": {
+                      "Name": "佐渡市小木町＊",
+                      "Code": "1522447",
+                      "Int": "1"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "Name": "富山県",
+              "Code": "16",
+              "MaxInt": "1",
+              "Area": [
+                {
+                  "Name": "富山県東部",
+                  "Code": "380",
+                  "MaxInt": "1",
+                  "City": {
+                    "Name": "富山市",
+                    "Code": "1620100",
+                    "MaxInt": "1",
+                    "IntensityStation": [
+                      {
+                        "Name": "富山市石坂",
+                        "Code": "1620100",
+                        "Int": "1"
+                      },
+                      {
+                        "Name": "富山市新桜町＊",
+                        "Code": "1620130",
+                        "Int": "1"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Name": "富山県西部",
+                  "Code": "381",
+                  "MaxInt": "1",
+                  "City": [
+                    {
+                      "Name": "氷見市",
+                      "Code": "1620500",
+                      "MaxInt": "1",
+                      "IntensityStation": {
+                        "Name": "氷見市加納＊",
+                        "Code": "1620531",
+                        "Int": "1"
+                      }
+                    },
+                    {
+                      "Name": "射水市",
+                      "Code": "1621100",
+                      "MaxInt": "1",
+                      "IntensityStation": {
+                        "Name": "射水市加茂中部＊",
+                        "Code": "1621138",
+                        "Int": "1"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "石川県",
+              "Code": "17",
+              "MaxInt": "1",
+              "Area": {
+                "Name": "石川県能登",
+                "Code": "390",
+                "MaxInt": "1",
+                "City": [
+                  {
+                    "Name": "七尾市",
+                    "Code": "1720200",
+                    "MaxInt": "1",
+                    "IntensityStation": [
+                      {
+                        "Name": "七尾市本府中町",
+                        "Code": "1720200",
+                        "Int": "1"
+                      },
+                      {
+                        "Name": "七尾市袖ヶ江町＊",
+                        "Code": "1720220",
+                        "Int": "1"
+                      },
+                      {
+                        "Name": "七尾市中島町中島＊",
+                        "Code": "1720234",
+                        "Int": "1"
+                      },
+                      {
+                        "Name": "七尾市能登島向田町＊",
+                        "Code": "1720237",
+                        "Int": "1"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "羽咋市",
+                    "Code": "1720700",
+                    "MaxInt": "1",
+                    "IntensityStation": {
+                      "Name": "羽咋市旭町＊",
+                      "Code": "1720720",
+                      "Int": "1"
+                    }
+                  },
+                  {
+                    "Name": "志賀町",
+                    "Code": "1738400",
+                    "MaxInt": "1",
+                    "IntensityStation": {
+                      "Name": "志賀町富来領家町",
+                      "Code": "1738400",
+                      "Int": "1"
+                    }
+                  },
+                  {
+                    "Name": "穴水町",
+                    "Code": "1746100",
+                    "MaxInt": "1",
+                    "IntensityStation": {
+                      "Name": "穴水町大町＊",
+                      "Code": "1746121",
+                      "Int": "1"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "Comments": {
+        "ForecastComment": {
+          "@codeType": "固定付加文",
+          "Text": "この地震による津波の心配はありません。",
+          "Code": "0215"
+        },
+        "VarComment": {
+          "@codeType": "固定付加文",
+          "Text": "＊印は気象庁以外の震度観測点についての情報です。",
+          "Code": "0262"
+        },
+        "FreeFormComment": "なお、この海域は、1日16時10分に発生した石川県能登地方の地震により、今後もしばらく海面変動が続くと思われますので、海水浴や海釣り等を行う際は十分注意してください。"
+      }
+    }
+  }
+}

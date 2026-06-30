@@ -1,0 +1,1012 @@
+{
+  "Report": {
+    "@xmlns": "http://xml.kishou.go.jp/jmaxml1/",
+    "@xmlns:jmx": "http://xml.kishou.go.jp/jmaxml1/",
+    "Control": {
+      "Title": "震度速報",
+      "DateTime": "2024-01-01T14:05:48Z",
+      "Status": "通常",
+      "EditorialOffice": "気象庁本庁",
+      "PublishingOffice": "気象庁"
+    },
+    "Head": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/informationBasis1/",
+      "Title": "震度速報",
+      "ReportDateTime": "2024-01-01T23:05:00+09:00",
+      "TargetDateTime": "2024-01-01T23:03:00+09:00",
+      "EventID": "20240101230402",
+      "InfoType": "発表",
+      "Serial": null,
+      "InfoKind": "震度速報",
+      "InfoKindVersion": "1.0_1",
+      "Headline": {
+        "Text": "１日２３時０３分ころ、地震による強い揺れを感じました。震度３以上が観測された地域をお知らせします。",
+        "Information": {
+          "@type": "震度速報",
+          "Item": [
+            {
+              "Kind": {
+                "Name": "震度７"
+              },
+              "Areas": {
+                "@codeType": "地震情報／細分区域",
+                "Area": {
+                  "Name": "石川県能登",
+                  "Code": "390"
+                }
+              }
+            },
+            {
+              "Kind": {
+                "Name": "震度６弱"
+              },
+              "Areas": {
+                "@codeType": "地震情報／細分区域",
+                "Area": {
+                  "Name": "新潟県中越",
+                  "Code": "371"
+                }
+              }
+            },
+            {
+              "Kind": {
+                "Name": "震度５強"
+              },
+              "Areas": {
+                "@codeType": "地震情報／細分区域",
+                "Area": [
+                  {
+                    "Name": "新潟県上越",
+                    "Code": "370"
+                  },
+                  {
+                    "Name": "新潟県下越",
+                    "Code": "372"
+                  },
+                  {
+                    "Name": "新潟県佐渡",
+                    "Code": "375"
+                  },
+                  {
+                    "Name": "富山県東部",
+                    "Code": "380"
+                  },
+                  {
+                    "Name": "富山県西部",
+                    "Code": "381"
+                  },
+                  {
+                    "Name": "石川県加賀",
+                    "Code": "391"
+                  },
+                  {
+                    "Name": "福井県嶺北",
+                    "Code": "400"
+                  }
+                ]
+              }
+            },
+            {
+              "Kind": {
+                "Name": "震度５弱"
+              },
+              "Areas": {
+                "@codeType": "地震情報／細分区域",
+                "Area": [
+                  {
+                    "Name": "長野県北部",
+                    "Code": "420"
+                  },
+                  {
+                    "Name": "岐阜県飛騨",
+                    "Code": "430"
+                  }
+                ]
+              }
+            },
+            {
+              "Kind": {
+                "Name": "震度４"
+              },
+              "Areas": {
+                "@codeType": "地震情報／細分区域",
+                "Area": [
+                  {
+                    "Name": "山形県庄内",
+                    "Code": "240"
+                  },
+                  {
+                    "Name": "山形県村山",
+                    "Code": "242"
+                  },
+                  {
+                    "Name": "山形県置賜",
+                    "Code": "243"
+                  },
+                  {
+                    "Name": "福島県中通り",
+                    "Code": "250"
+                  },
+                  {
+                    "Name": "福島県会津",
+                    "Code": "252"
+                  },
+                  {
+                    "Name": "茨城県北部",
+                    "Code": "300"
+                  },
+                  {
+                    "Name": "栃木県北部",
+                    "Code": "310"
+                  },
+                  {
+                    "Name": "群馬県北部",
+                    "Code": "320"
+                  },
+                  {
+                    "Name": "埼玉県北部",
+                    "Code": "330"
+                  },
+                  {
+                    "Name": "福井県嶺南",
+                    "Code": "401"
+                  },
+                  {
+                    "Name": "長野県中部",
+                    "Code": "421"
+                  },
+                  {
+                    "Name": "長野県南部",
+                    "Code": "422"
+                  },
+                  {
+                    "Name": "岐阜県美濃東部",
+                    "Code": "431"
+                  },
+                  {
+                    "Name": "岐阜県美濃中西部",
+                    "Code": "432"
+                  },
+                  {
+                    "Name": "静岡県西部",
+                    "Code": "443"
+                  },
+                  {
+                    "Name": "愛知県西部",
+                    "Code": "451"
+                  },
+                  {
+                    "Name": "三重県北部",
+                    "Code": "460"
+                  },
+                  {
+                    "Name": "滋賀県北部",
+                    "Code": "500"
+                  },
+                  {
+                    "Name": "滋賀県南部",
+                    "Code": "501"
+                  },
+                  {
+                    "Name": "京都府南部",
+                    "Code": "511"
+                  },
+                  {
+                    "Name": "大阪府北部",
+                    "Code": "520"
+                  },
+                  {
+                    "Name": "兵庫県北部",
+                    "Code": "530"
+                  },
+                  {
+                    "Name": "奈良県",
+                    "Code": "540"
+                  },
+                  {
+                    "Name": "鳥取県東部",
+                    "Code": "560"
+                  }
+                ]
+              }
+            },
+            {
+              "Kind": {
+                "Name": "震度３"
+              },
+              "Areas": {
+                "@codeType": "地震情報／細分区域",
+                "Area": [
+                  {
+                    "Name": "岩手県内陸北部",
+                    "Code": "212"
+                  },
+                  {
+                    "Name": "宮城県北部",
+                    "Code": "220"
+                  },
+                  {
+                    "Name": "宮城県南部",
+                    "Code": "221"
+                  },
+                  {
+                    "Name": "宮城県中部",
+                    "Code": "222"
+                  },
+                  {
+                    "Name": "秋田県沿岸北部",
+                    "Code": "230"
+                  },
+                  {
+                    "Name": "秋田県沿岸南部",
+                    "Code": "231"
+                  },
+                  {
+                    "Name": "秋田県内陸北部",
+                    "Code": "232"
+                  },
+                  {
+                    "Name": "秋田県内陸南部",
+                    "Code": "233"
+                  },
+                  {
+                    "Name": "山形県最上",
+                    "Code": "241"
+                  },
+                  {
+                    "Name": "福島県浜通り",
+                    "Code": "251"
+                  },
+                  {
+                    "Name": "茨城県南部",
+                    "Code": "301"
+                  },
+                  {
+                    "Name": "栃木県南部",
+                    "Code": "311"
+                  },
+                  {
+                    "Name": "群馬県南部",
+                    "Code": "321"
+                  },
+                  {
+                    "Name": "埼玉県南部",
+                    "Code": "331"
+                  },
+                  {
+                    "Name": "千葉県北東部",
+                    "Code": "340"
+                  },
+                  {
+                    "Name": "千葉県北西部",
+                    "Code": "341"
+                  },
+                  {
+                    "Name": "千葉県南部",
+                    "Code": "342"
+                  },
+                  {
+                    "Name": "東京都２３区",
+                    "Code": "350"
+                  },
+                  {
+                    "Name": "神奈川県東部",
+                    "Code": "360"
+                  },
+                  {
+                    "Name": "神奈川県西部",
+                    "Code": "361"
+                  },
+                  {
+                    "Name": "山梨県中・西部",
+                    "Code": "411"
+                  },
+                  {
+                    "Name": "山梨県東部・富士五湖",
+                    "Code": "412"
+                  },
+                  {
+                    "Name": "静岡県東部",
+                    "Code": "441"
+                  },
+                  {
+                    "Name": "静岡県中部",
+                    "Code": "442"
+                  },
+                  {
+                    "Name": "愛知県東部",
+                    "Code": "450"
+                  },
+                  {
+                    "Name": "三重県中部",
+                    "Code": "461"
+                  },
+                  {
+                    "Name": "三重県南部",
+                    "Code": "462"
+                  },
+                  {
+                    "Name": "京都府北部",
+                    "Code": "510"
+                  },
+                  {
+                    "Name": "大阪府南部",
+                    "Code": "521"
+                  },
+                  {
+                    "Name": "兵庫県南東部",
+                    "Code": "531"
+                  },
+                  {
+                    "Name": "兵庫県淡路島",
+                    "Code": "535"
+                  },
+                  {
+                    "Name": "和歌山県北部",
+                    "Code": "550"
+                  },
+                  {
+                    "Name": "鳥取県中部",
+                    "Code": "562"
+                  },
+                  {
+                    "Name": "鳥取県西部",
+                    "Code": "563"
+                  },
+                  {
+                    "Name": "島根県東部",
+                    "Code": "570"
+                  },
+                  {
+                    "Name": "島根県隠岐",
+                    "Code": "575"
+                  },
+                  {
+                    "Name": "岡山県北部",
+                    "Code": "580"
+                  },
+                  {
+                    "Name": "岡山県南部",
+                    "Code": "581"
+                  },
+                  {
+                    "Name": "徳島県北部",
+                    "Code": "600"
+                  },
+                  {
+                    "Name": "香川県東部",
+                    "Code": "610"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Body": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/body/seismology1/",
+      "@xmlns:jmx_eb": "http://xml.kishou.go.jp/jmaxml1/elementBasis1/",
+      "Intensity": {
+        "Observation": {
+          "CodeDefine": {
+            "Type": [
+              {
+                "@xpath": "Pref/Code",
+                "#text": "地震情報／都道府県等"
+              },
+              {
+                "@xpath": "Pref/Area/Code",
+                "#text": "地震情報／細分区域"
+              }
+            ]
+          },
+          "MaxInt": "7",
+          "Pref": [
+            {
+              "Name": "石川県",
+              "Code": "17",
+              "MaxInt": "7",
+              "Area": [
+                {
+                  "Name": "石川県能登",
+                  "Code": "390",
+                  "MaxInt": "7"
+                },
+                {
+                  "Name": "石川県加賀",
+                  "Code": "391",
+                  "MaxInt": "5+"
+                }
+              ]
+            },
+            {
+              "Name": "新潟県",
+              "Code": "15",
+              "MaxInt": "6-",
+              "Area": [
+                {
+                  "Name": "新潟県中越",
+                  "Code": "371",
+                  "MaxInt": "6-"
+                },
+                {
+                  "Name": "新潟県上越",
+                  "Code": "370",
+                  "MaxInt": "5+"
+                },
+                {
+                  "Name": "新潟県下越",
+                  "Code": "372",
+                  "MaxInt": "5+"
+                },
+                {
+                  "Name": "新潟県佐渡",
+                  "Code": "375",
+                  "MaxInt": "5+"
+                }
+              ]
+            },
+            {
+              "Name": "富山県",
+              "Code": "16",
+              "MaxInt": "5+",
+              "Area": [
+                {
+                  "Name": "富山県東部",
+                  "Code": "380",
+                  "MaxInt": "5+"
+                },
+                {
+                  "Name": "富山県西部",
+                  "Code": "381",
+                  "MaxInt": "5+"
+                }
+              ]
+            },
+            {
+              "Name": "福井県",
+              "Code": "18",
+              "MaxInt": "5+",
+              "Area": [
+                {
+                  "Name": "福井県嶺北",
+                  "Code": "400",
+                  "MaxInt": "5+"
+                },
+                {
+                  "Name": "福井県嶺南",
+                  "Code": "401",
+                  "MaxInt": "4"
+                }
+              ]
+            },
+            {
+              "Name": "長野県",
+              "Code": "20",
+              "MaxInt": "5-",
+              "Area": [
+                {
+                  "Name": "長野県北部",
+                  "Code": "420",
+                  "MaxInt": "5-"
+                },
+                {
+                  "Name": "長野県中部",
+                  "Code": "421",
+                  "MaxInt": "4"
+                },
+                {
+                  "Name": "長野県南部",
+                  "Code": "422",
+                  "MaxInt": "4"
+                }
+              ]
+            },
+            {
+              "Name": "岐阜県",
+              "Code": "21",
+              "MaxInt": "5-",
+              "Area": [
+                {
+                  "Name": "岐阜県飛騨",
+                  "Code": "430",
+                  "MaxInt": "5-"
+                },
+                {
+                  "Name": "岐阜県美濃東部",
+                  "Code": "431",
+                  "MaxInt": "4"
+                },
+                {
+                  "Name": "岐阜県美濃中西部",
+                  "Code": "432",
+                  "MaxInt": "4"
+                }
+              ]
+            },
+            {
+              "Name": "山形県",
+              "Code": "06",
+              "MaxInt": "4",
+              "Area": [
+                {
+                  "Name": "山形県庄内",
+                  "Code": "240",
+                  "MaxInt": "4"
+                },
+                {
+                  "Name": "山形県村山",
+                  "Code": "242",
+                  "MaxInt": "4"
+                },
+                {
+                  "Name": "山形県置賜",
+                  "Code": "243",
+                  "MaxInt": "4"
+                },
+                {
+                  "Name": "山形県最上",
+                  "Code": "241",
+                  "MaxInt": "3"
+                }
+              ]
+            },
+            {
+              "Name": "福島県",
+              "Code": "07",
+              "MaxInt": "4",
+              "Area": [
+                {
+                  "Name": "福島県中通り",
+                  "Code": "250",
+                  "MaxInt": "4"
+                },
+                {
+                  "Name": "福島県会津",
+                  "Code": "252",
+                  "MaxInt": "4"
+                },
+                {
+                  "Name": "福島県浜通り",
+                  "Code": "251",
+                  "MaxInt": "3"
+                }
+              ]
+            },
+            {
+              "Name": "茨城県",
+              "Code": "08",
+              "MaxInt": "4",
+              "Area": [
+                {
+                  "Name": "茨城県北部",
+                  "Code": "300",
+                  "MaxInt": "4"
+                },
+                {
+                  "Name": "茨城県南部",
+                  "Code": "301",
+                  "MaxInt": "3"
+                }
+              ]
+            },
+            {
+              "Name": "栃木県",
+              "Code": "09",
+              "MaxInt": "4",
+              "Area": [
+                {
+                  "Name": "栃木県北部",
+                  "Code": "310",
+                  "MaxInt": "4"
+                },
+                {
+                  "Name": "栃木県南部",
+                  "Code": "311",
+                  "MaxInt": "3"
+                }
+              ]
+            },
+            {
+              "Name": "群馬県",
+              "Code": "10",
+              "MaxInt": "4",
+              "Area": [
+                {
+                  "Name": "群馬県北部",
+                  "Code": "320",
+                  "MaxInt": "4"
+                },
+                {
+                  "Name": "群馬県南部",
+                  "Code": "321",
+                  "MaxInt": "3"
+                }
+              ]
+            },
+            {
+              "Name": "埼玉県",
+              "Code": "11",
+              "MaxInt": "4",
+              "Area": [
+                {
+                  "Name": "埼玉県北部",
+                  "Code": "330",
+                  "MaxInt": "4"
+                },
+                {
+                  "Name": "埼玉県南部",
+                  "Code": "331",
+                  "MaxInt": "3"
+                }
+              ]
+            },
+            {
+              "Name": "静岡県",
+              "Code": "22",
+              "MaxInt": "4",
+              "Area": [
+                {
+                  "Name": "静岡県西部",
+                  "Code": "443",
+                  "MaxInt": "4"
+                },
+                {
+                  "Name": "静岡県東部",
+                  "Code": "441",
+                  "MaxInt": "3"
+                },
+                {
+                  "Name": "静岡県中部",
+                  "Code": "442",
+                  "MaxInt": "3"
+                }
+              ]
+            },
+            {
+              "Name": "愛知県",
+              "Code": "23",
+              "MaxInt": "4",
+              "Area": [
+                {
+                  "Name": "愛知県西部",
+                  "Code": "451",
+                  "MaxInt": "4"
+                },
+                {
+                  "Name": "愛知県東部",
+                  "Code": "450",
+                  "MaxInt": "3"
+                }
+              ]
+            },
+            {
+              "Name": "三重県",
+              "Code": "24",
+              "MaxInt": "4",
+              "Area": [
+                {
+                  "Name": "三重県北部",
+                  "Code": "460",
+                  "MaxInt": "4"
+                },
+                {
+                  "Name": "三重県中部",
+                  "Code": "461",
+                  "MaxInt": "3"
+                },
+                {
+                  "Name": "三重県南部",
+                  "Code": "462",
+                  "MaxInt": "3"
+                }
+              ]
+            },
+            {
+              "Name": "滋賀県",
+              "Code": "25",
+              "MaxInt": "4",
+              "Area": [
+                {
+                  "Name": "滋賀県北部",
+                  "Code": "500",
+                  "MaxInt": "4"
+                },
+                {
+                  "Name": "滋賀県南部",
+                  "Code": "501",
+                  "MaxInt": "4"
+                }
+              ]
+            },
+            {
+              "Name": "京都府",
+              "Code": "26",
+              "MaxInt": "4",
+              "Area": [
+                {
+                  "Name": "京都府南部",
+                  "Code": "511",
+                  "MaxInt": "4"
+                },
+                {
+                  "Name": "京都府北部",
+                  "Code": "510",
+                  "MaxInt": "3"
+                }
+              ]
+            },
+            {
+              "Name": "大阪府",
+              "Code": "27",
+              "MaxInt": "4",
+              "Area": [
+                {
+                  "Name": "大阪府北部",
+                  "Code": "520",
+                  "MaxInt": "4"
+                },
+                {
+                  "Name": "大阪府南部",
+                  "Code": "521",
+                  "MaxInt": "3"
+                }
+              ]
+            },
+            {
+              "Name": "兵庫県",
+              "Code": "28",
+              "MaxInt": "4",
+              "Area": [
+                {
+                  "Name": "兵庫県北部",
+                  "Code": "530",
+                  "MaxInt": "4"
+                },
+                {
+                  "Name": "兵庫県南東部",
+                  "Code": "531",
+                  "MaxInt": "3"
+                },
+                {
+                  "Name": "兵庫県淡路島",
+                  "Code": "535",
+                  "MaxInt": "3"
+                }
+              ]
+            },
+            {
+              "Name": "奈良県",
+              "Code": "29",
+              "MaxInt": "4",
+              "Area": {
+                "Name": "奈良県",
+                "Code": "540",
+                "MaxInt": "4"
+              }
+            },
+            {
+              "Name": "鳥取県",
+              "Code": "31",
+              "MaxInt": "4",
+              "Area": [
+                {
+                  "Name": "鳥取県東部",
+                  "Code": "560",
+                  "MaxInt": "4"
+                },
+                {
+                  "Name": "鳥取県中部",
+                  "Code": "562",
+                  "MaxInt": "3"
+                },
+                {
+                  "Name": "鳥取県西部",
+                  "Code": "563",
+                  "MaxInt": "3"
+                }
+              ]
+            },
+            {
+              "Name": "岩手県",
+              "Code": "03",
+              "MaxInt": "3",
+              "Area": {
+                "Name": "岩手県内陸北部",
+                "Code": "212",
+                "MaxInt": "3"
+              }
+            },
+            {
+              "Name": "宮城県",
+              "Code": "04",
+              "MaxInt": "3",
+              "Area": [
+                {
+                  "Name": "宮城県北部",
+                  "Code": "220",
+                  "MaxInt": "3"
+                },
+                {
+                  "Name": "宮城県南部",
+                  "Code": "221",
+                  "MaxInt": "3"
+                },
+                {
+                  "Name": "宮城県中部",
+                  "Code": "222",
+                  "MaxInt": "3"
+                }
+              ]
+            },
+            {
+              "Name": "秋田県",
+              "Code": "05",
+              "MaxInt": "3",
+              "Area": [
+                {
+                  "Name": "秋田県沿岸北部",
+                  "Code": "230",
+                  "MaxInt": "3"
+                },
+                {
+                  "Name": "秋田県沿岸南部",
+                  "Code": "231",
+                  "MaxInt": "3"
+                },
+                {
+                  "Name": "秋田県内陸北部",
+                  "Code": "232",
+                  "MaxInt": "3"
+                },
+                {
+                  "Name": "秋田県内陸南部",
+                  "Code": "233",
+                  "MaxInt": "3"
+                }
+              ]
+            },
+            {
+              "Name": "千葉県",
+              "Code": "12",
+              "MaxInt": "3",
+              "Area": [
+                {
+                  "Name": "千葉県北東部",
+                  "Code": "340",
+                  "MaxInt": "3"
+                },
+                {
+                  "Name": "千葉県北西部",
+                  "Code": "341",
+                  "MaxInt": "3"
+                },
+                {
+                  "Name": "千葉県南部",
+                  "Code": "342",
+                  "MaxInt": "3"
+                }
+              ]
+            },
+            {
+              "Name": "東京都",
+              "Code": "13",
+              "MaxInt": "3",
+              "Area": {
+                "Name": "東京都２３区",
+                "Code": "350",
+                "MaxInt": "3"
+              }
+            },
+            {
+              "Name": "神奈川県",
+              "Code": "14",
+              "MaxInt": "3",
+              "Area": [
+                {
+                  "Name": "神奈川県東部",
+                  "Code": "360",
+                  "MaxInt": "3"
+                },
+                {
+                  "Name": "神奈川県西部",
+                  "Code": "361",
+                  "MaxInt": "3"
+                }
+              ]
+            },
+            {
+              "Name": "山梨県",
+              "Code": "19",
+              "MaxInt": "3",
+              "Area": [
+                {
+                  "Name": "山梨県中・西部",
+                  "Code": "411",
+                  "MaxInt": "3"
+                },
+                {
+                  "Name": "山梨県東部・富士五湖",
+                  "Code": "412",
+                  "MaxInt": "3"
+                }
+              ]
+            },
+            {
+              "Name": "和歌山県",
+              "Code": "30",
+              "MaxInt": "3",
+              "Area": {
+                "Name": "和歌山県北部",
+                "Code": "550",
+                "MaxInt": "3"
+              }
+            },
+            {
+              "Name": "島根県",
+              "Code": "32",
+              "MaxInt": "3",
+              "Area": [
+                {
+                  "Name": "島根県東部",
+                  "Code": "570",
+                  "MaxInt": "3"
+                },
+                {
+                  "Name": "島根県隠岐",
+                  "Code": "575",
+                  "MaxInt": "3"
+                }
+              ]
+            },
+            {
+              "Name": "岡山県",
+              "Code": "33",
+              "MaxInt": "3",
+              "Area": [
+                {
+                  "Name": "岡山県北部",
+                  "Code": "580",
+                  "MaxInt": "3"
+                },
+                {
+                  "Name": "岡山県南部",
+                  "Code": "581",
+                  "MaxInt": "3"
+                }
+              ]
+            },
+            {
+              "Name": "徳島県",
+              "Code": "36",
+              "MaxInt": "3",
+              "Area": {
+                "Name": "徳島県北部",
+                "Code": "600",
+                "MaxInt": "3"
+              }
+            },
+            {
+              "Name": "香川県",
+              "Code": "37",
+              "MaxInt": "3",
+              "Area": {
+                "Name": "香川県東部",
+                "Code": "610",
+                "MaxInt": "3"
+              }
+            }
+          ]
+        }
+      },
+      "Comments": {
+        "ForecastComment": {
+          "@codeType": "固定付加文",
+          "Text": "今後の情報に注意してください。",
+          "Code": "0217"
+        }
+      }
+    }
+  }
+}

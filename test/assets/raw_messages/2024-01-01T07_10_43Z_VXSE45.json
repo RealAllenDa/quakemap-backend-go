@@ -1,0 +1,717 @@
+{
+  "Report": {
+    "@xmlns": "http://xml.kishou.go.jp/jmaxml1/",
+    "@xmlns:jmx": "http://xml.kishou.go.jp/jmaxml1/",
+    "Control": {
+      "Title": "緊急地震速報（地震動予報）",
+      "DateTime": "2024-01-01T07:10:43Z",
+      "Status": "通常",
+      "EditorialOffice": "気象庁本庁",
+      "PublishingOffice": "気象庁"
+    },
+    "Head": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/informationBasis1/",
+      "Title": "緊急地震速報（地震動予報）",
+      "ReportDateTime": "2024-01-01T16:10:43+09:00",
+      "TargetDateTime": "2024-01-01T16:10:43+09:00",
+      "EventID": "20240101161010",
+      "InfoType": "発表",
+      "Serial": "20",
+      "InfoKind": "緊急地震速報",
+      "InfoKindVersion": "1.2_0",
+      "Headline": {
+        "Text": "石川県で地震　北陸　甲信　東海　関東で強い揺れ",
+        "Information": [
+          {
+            "@type": "緊急地震速報（地方予報区）",
+            "Item": [
+              {
+                "Kind": {
+                  "Name": "緊急地震速報（警報）",
+                  "Code": "31"
+                },
+                "LastKind": {
+                  "Name": "緊急地震速報（警報）",
+                  "Code": "31"
+                },
+                "Areas": {
+                  "@codeType": "緊急地震速報／地方予報区",
+                  "Area": {
+                    "Name": "北陸",
+                    "Code": "9934"
+                  }
+                }
+              },
+              {
+                "Kind": {
+                  "Name": "緊急地震速報（警報）",
+                  "Code": "31"
+                },
+                "LastKind": {
+                  "Name": "なし",
+                  "Code": "00"
+                },
+                "Areas": {
+                  "@codeType": "緊急地震速報／地方予報区",
+                  "Area": [
+                    {
+                      "Name": "甲信",
+                      "Code": "9935"
+                    },
+                    {
+                      "Name": "東海",
+                      "Code": "9936"
+                    },
+                    {
+                      "Name": "関東",
+                      "Code": "9931"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "@type": "緊急地震速報（府県予報区）",
+            "Item": [
+              {
+                "Kind": {
+                  "Name": "緊急地震速報（警報）",
+                  "Code": "31"
+                },
+                "LastKind": {
+                  "Name": "緊急地震速報（警報）",
+                  "Code": "31"
+                },
+                "Areas": {
+                  "@codeType": "緊急地震速報／府県予報区",
+                  "Area": {
+                    "Name": "石川",
+                    "Code": "9170"
+                  }
+                }
+              },
+              {
+                "Kind": {
+                  "Name": "緊急地震速報（警報）",
+                  "Code": "31"
+                },
+                "LastKind": {
+                  "Name": "なし",
+                  "Code": "00"
+                },
+                "Areas": {
+                  "@codeType": "緊急地震速報／府県予報区",
+                  "Area": [
+                    {
+                      "Name": "富山",
+                      "Code": "9160"
+                    },
+                    {
+                      "Name": "新潟",
+                      "Code": "9150"
+                    },
+                    {
+                      "Name": "長野",
+                      "Code": "9200"
+                    },
+                    {
+                      "Name": "岐阜",
+                      "Code": "9210"
+                    },
+                    {
+                      "Name": "群馬",
+                      "Code": "9100"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "@type": "緊急地震速報（細分区域）",
+            "Item": [
+              {
+                "Kind": {
+                  "Name": "緊急地震速報（警報）",
+                  "Code": "31"
+                },
+                "LastKind": {
+                  "Name": "緊急地震速報（警報）",
+                  "Code": "31"
+                },
+                "Areas": {
+                  "@codeType": "地震情報／細分区域",
+                  "Area": {
+                    "Name": "石川県能登",
+                    "Code": "390"
+                  }
+                }
+              },
+              {
+                "Kind": {
+                  "Name": "緊急地震速報（警報）",
+                  "Code": "31"
+                },
+                "LastKind": {
+                  "Name": "なし",
+                  "Code": "00"
+                },
+                "Areas": {
+                  "@codeType": "地震情報／細分区域",
+                  "Area": [
+                    {
+                      "Name": "富山県西部",
+                      "Code": "381"
+                    },
+                    {
+                      "Name": "新潟県上越",
+                      "Code": "370"
+                    },
+                    {
+                      "Name": "富山県東部",
+                      "Code": "380"
+                    },
+                    {
+                      "Name": "石川県加賀",
+                      "Code": "391"
+                    },
+                    {
+                      "Name": "新潟県佐渡",
+                      "Code": "375"
+                    },
+                    {
+                      "Name": "長野県北部",
+                      "Code": "420"
+                    },
+                    {
+                      "Name": "新潟県中越",
+                      "Code": "371"
+                    },
+                    {
+                      "Name": "岐阜県飛騨",
+                      "Code": "430"
+                    },
+                    {
+                      "Name": "群馬県南部",
+                      "Code": "321"
+                    },
+                    {
+                      "Name": "長野県中部",
+                      "Code": "421"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Body": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/body/seismology1/",
+      "@xmlns:jmx_eb": "http://xml.kishou.go.jp/jmaxml1/elementBasis1/",
+      "Earthquake": {
+        "OriginTime": "2024-01-01T16:10:08+09:00",
+        "ArrivalTime": "2024-01-01T16:10:10+09:00",
+        "Hypocenter": {
+          "Area": {
+            "Name": "石川県能登地方",
+            "Code": {
+              "@type": "震央地名",
+              "#text": "390"
+            },
+            "jmx_eb:Coordinate": {
+              "@description": "北緯３７．５度　東経１３７．２度　深さ　１０ｋｍ",
+              "@datum": "日本測地系",
+              "#text": "+37.5+137.2-10000/"
+            },
+            "ReduceName": "石川県",
+            "ReduceCode": {
+              "@type": "短縮用震央地名",
+              "#text": "9170"
+            },
+            "LandOrSea": "内陸"
+          },
+          "Accuracy": {
+            "Epicenter": {
+              "@rank": "4",
+              "@rank2": "4",
+              "#text": "NaN"
+            },
+            "Depth": {
+              "@rank": "4",
+              "#text": "NaN"
+            },
+            "MagnitudeCalculation": {
+              "@rank": "4",
+              "#text": "NaN"
+            },
+            "NumberOfMagnitudeCalculation": "5"
+          }
+        },
+        "jmx_eb:Magnitude": {
+          "@type": "Mj",
+          "@description": "Ｍ６．６",
+          "#text": "6.6"
+        }
+      },
+      "Intensity": {
+        "Forecast": {
+          "CodeDefine": {
+            "Type": [
+              {
+                "@xpath": "Pref/Code",
+                "#text": "緊急地震速報／府県予報区"
+              },
+              {
+                "@xpath": "Pref/Area/Code",
+                "#text": "地震情報／細分区域"
+              },
+              {
+                "@xpath": "Pref/Area/Category/Kind/Code",
+                "#text": "緊急地震速報"
+              }
+            ]
+          },
+          "ForecastInt": {
+            "From": "7",
+            "To": "7"
+          },
+          "ForecastLgInt": {
+            "From": "2",
+            "To": "2"
+          },
+          "Appendix": {
+            "MaxIntChange": "0",
+            "MaxLgIntChange": "0",
+            "MaxIntChangeReason": "0"
+          },
+          "Pref": [
+            {
+              "Name": "石川",
+              "Code": "9170",
+              "Area": {
+                "Name": "石川県能登",
+                "Code": "390",
+                "Category": {
+                  "Kind": {
+                    "Name": "緊急地震速報（警報）",
+                    "Code": "11"
+                  }
+                },
+                "ForecastInt": {
+                  "From": "6-",
+                  "To": "7"
+                },
+                "ForecastLgInt": {
+                  "From": "2",
+                  "To": "2"
+                },
+                "Condition": "既に主要動到達と推測"
+              }
+            },
+            {
+              "Name": "富山",
+              "Code": "9160",
+              "Area": {
+                "Name": "富山県西部",
+                "Code": "381",
+                "Category": {
+                  "Kind": {
+                    "Name": "緊急地震速報（警報）",
+                    "Code": "19"
+                  }
+                },
+                "ForecastInt": {
+                  "From": "5-",
+                  "To": "5-"
+                },
+                "ForecastLgInt": {
+                  "From": "1",
+                  "To": "1"
+                },
+                "ArrivalTime": "2024-01-01T16:10:43+09:00"
+              }
+            },
+            {
+              "Name": "新潟",
+              "Code": "9150",
+              "Area": {
+                "Name": "新潟県上越",
+                "Code": "370",
+                "Category": {
+                  "Kind": {
+                    "Name": "緊急地震速報（警報）",
+                    "Code": "11"
+                  }
+                },
+                "ForecastInt": {
+                  "From": "4",
+                  "To": "4"
+                },
+                "ForecastLgInt": {
+                  "From": "1",
+                  "To": "1"
+                },
+                "Condition": "既に主要動到達と推測"
+              }
+            },
+            {
+              "Name": "富山",
+              "Code": "9160",
+              "Area": {
+                "Name": "富山県東部",
+                "Code": "380",
+                "Category": {
+                  "Kind": {
+                    "Name": "緊急地震速報（警報）",
+                    "Code": "11"
+                  }
+                },
+                "ForecastInt": {
+                  "From": "4",
+                  "To": "4"
+                },
+                "ForecastLgInt": {
+                  "From": "1",
+                  "To": "1"
+                },
+                "Condition": "既に主要動到達と推測"
+              }
+            },
+            {
+              "Name": "石川",
+              "Code": "9170",
+              "Area": {
+                "Name": "石川県加賀",
+                "Code": "391",
+                "Category": {
+                  "Kind": {
+                    "Name": "緊急地震速報（警報）",
+                    "Code": "11"
+                  }
+                },
+                "ForecastInt": {
+                  "From": "4",
+                  "To": "4"
+                },
+                "ForecastLgInt": {
+                  "From": "1",
+                  "To": "1"
+                },
+                "Condition": "既に主要動到達と推測"
+              }
+            },
+            {
+              "Name": "新潟",
+              "Code": "9150",
+              "Area": {
+                "Name": "新潟県佐渡",
+                "Code": "375",
+                "Category": {
+                  "Kind": {
+                    "Name": "緊急地震速報（警報）",
+                    "Code": "11"
+                  }
+                },
+                "ForecastInt": {
+                  "From": "4",
+                  "To": "4"
+                },
+                "ForecastLgInt": {
+                  "From": "0",
+                  "To": "0"
+                },
+                "Condition": "既に主要動到達と推測"
+              }
+            },
+            {
+              "Name": "長野",
+              "Code": "9200",
+              "Area": {
+                "Name": "長野県北部",
+                "Code": "420",
+                "Category": {
+                  "Kind": {
+                    "Name": "緊急地震速報（警報）",
+                    "Code": "11"
+                  }
+                },
+                "ForecastInt": {
+                  "From": "4",
+                  "To": "4"
+                },
+                "ForecastLgInt": {
+                  "From": "1",
+                  "To": "1"
+                },
+                "Condition": "既に主要動到達と推測"
+              }
+            },
+            {
+              "Name": "新潟",
+              "Code": "9150",
+              "Area": {
+                "Name": "新潟県中越",
+                "Code": "371",
+                "Category": {
+                  "Kind": {
+                    "Name": "緊急地震速報（警報）",
+                    "Code": "10"
+                  }
+                },
+                "ForecastInt": {
+                  "From": "4",
+                  "To": "4"
+                },
+                "ForecastLgInt": {
+                  "From": "1",
+                  "To": "1"
+                },
+                "ArrivalTime": "2024-01-01T16:10:44+09:00"
+              }
+            },
+            {
+              "Name": "岐阜",
+              "Code": "9210",
+              "Area": {
+                "Name": "岐阜県飛騨",
+                "Code": "430",
+                "Category": {
+                  "Kind": {
+                    "Name": "緊急地震速報（警報）",
+                    "Code": "10"
+                  }
+                },
+                "ForecastInt": {
+                  "From": "4",
+                  "To": "4"
+                },
+                "ForecastLgInt": {
+                  "From": "0",
+                  "To": "0"
+                },
+                "ArrivalTime": "2024-01-01T16:10:46+09:00"
+              }
+            },
+            {
+              "Name": "群馬",
+              "Code": "9100",
+              "Area": {
+                "Name": "群馬県南部",
+                "Code": "321",
+                "Category": {
+                  "Kind": {
+                    "Name": "緊急地震速報（警報）",
+                    "Code": "10"
+                  }
+                },
+                "ForecastInt": {
+                  "From": "3",
+                  "To": "4"
+                },
+                "ForecastLgInt": {
+                  "From": "0",
+                  "To": "0"
+                },
+                "ArrivalTime": "2024-01-01T16:11:01+09:00"
+              }
+            },
+            {
+              "Name": "新潟",
+              "Code": "9150",
+              "Area": {
+                "Name": "新潟県下越",
+                "Code": "372",
+                "Category": {
+                  "Kind": {
+                    "Name": "緊急地震速報（予報）",
+                    "Code": "00"
+                  }
+                },
+                "ForecastInt": {
+                  "From": "3",
+                  "To": "3"
+                },
+                "ForecastLgInt": {
+                  "From": "1",
+                  "To": "1"
+                },
+                "ArrivalTime": "2024-01-01T16:10:49+09:00"
+              }
+            },
+            {
+              "Name": "福井",
+              "Code": "9180",
+              "Area": {
+                "Name": "福井県嶺北",
+                "Code": "400",
+                "Category": {
+                  "Kind": {
+                    "Name": "緊急地震速報（予報）",
+                    "Code": "00"
+                  }
+                },
+                "ForecastInt": {
+                  "From": "3",
+                  "To": "3"
+                },
+                "ForecastLgInt": {
+                  "From": "1",
+                  "To": "1"
+                },
+                "ArrivalTime": "2024-01-01T16:10:55+09:00"
+              }
+            },
+            {
+              "Name": "長野",
+              "Code": "9200",
+              "Area": {
+                "Name": "長野県南部",
+                "Code": "422",
+                "Category": {
+                  "Kind": {
+                    "Name": "緊急地震速報（予報）",
+                    "Code": "00"
+                  }
+                },
+                "ForecastInt": {
+                  "From": "3",
+                  "To": "3"
+                },
+                "ForecastLgInt": {
+                  "From": "1",
+                  "To": "1"
+                },
+                "ArrivalTime": "2024-01-01T16:10:57+09:00"
+              }
+            },
+            {
+              "Name": "長野",
+              "Code": "9200",
+              "Area": {
+                "Name": "長野県中部",
+                "Code": "421",
+                "Category": {
+                  "Kind": {
+                    "Name": "緊急地震速報（予報）",
+                    "Code": "00"
+                  }
+                },
+                "ForecastInt": {
+                  "From": "3",
+                  "To": "3"
+                },
+                "ForecastLgInt": {
+                  "From": "1",
+                  "To": "1"
+                },
+                "ArrivalTime": "2024-01-01T16:10:58+09:00"
+              }
+            },
+            {
+              "Name": "山形",
+              "Code": "9060",
+              "Area": {
+                "Name": "山形県庄内",
+                "Code": "240",
+                "Category": {
+                  "Kind": {
+                    "Name": "緊急地震速報（予報）",
+                    "Code": "00"
+                  }
+                },
+                "ForecastInt": {
+                  "From": "3",
+                  "To": "3"
+                },
+                "ForecastLgInt": {
+                  "From": "1",
+                  "To": "1"
+                },
+                "ArrivalTime": "2024-01-01T16:11:21+09:00"
+              }
+            },
+            {
+              "Name": "千葉",
+              "Code": "9120",
+              "Area": {
+                "Name": "千葉県北西部",
+                "Code": "341",
+                "Category": {
+                  "Kind": {
+                    "Name": "緊急地震速報（予報）",
+                    "Code": "00"
+                  }
+                },
+                "ForecastInt": {
+                  "From": "3",
+                  "To": "3"
+                },
+                "ForecastLgInt": {
+                  "From": "1",
+                  "To": "1"
+                },
+                "ArrivalTime": "2024-01-01T16:11:24+09:00"
+              }
+            },
+            {
+              "Name": "神奈川",
+              "Code": "9140",
+              "Area": {
+                "Name": "神奈川県東部",
+                "Code": "360",
+                "Category": {
+                  "Kind": {
+                    "Name": "緊急地震速報（予報）",
+                    "Code": "00"
+                  }
+                },
+                "ForecastInt": {
+                  "From": "2",
+                  "To": "2"
+                },
+                "ForecastLgInt": {
+                  "From": "1",
+                  "To": "1"
+                },
+                "ArrivalTime": "2024-01-01T16:11:27+09:00"
+              }
+            },
+            {
+              "Name": "鳥取",
+              "Code": "9310",
+              "Area": {
+                "Name": "鳥取県西部",
+                "Code": "563",
+                "Category": {
+                  "Kind": {
+                    "Name": "緊急地震速報（予報）",
+                    "Code": "00"
+                  }
+                },
+                "ForecastInt": {
+                  "From": "2",
+                  "To": "2"
+                },
+                "ForecastLgInt": {
+                  "From": "1",
+                  "To": "1"
+                },
+                "ArrivalTime": "2024-01-01T16:11:51+09:00"
+              }
+            }
+          ]
+        }
+      },
+      "Comments": {
+        "WarningComment": {
+          "@codeType": "固定付加文",
+          "Text": "強い揺れに警戒してください。",
+          "Code": "0201"
+        }
+      }
+    }
+  }
+}

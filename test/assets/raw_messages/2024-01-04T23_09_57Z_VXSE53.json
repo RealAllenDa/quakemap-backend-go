@@ -1,0 +1,189 @@
+{
+  "Report": {
+    "@xmlns": "http://xml.kishou.go.jp/jmaxml1/",
+    "@xmlns:jmx": "http://xml.kishou.go.jp/jmaxml1/",
+    "Control": {
+      "Title": "震源・震度に関する情報",
+      "DateTime": "2024-01-04T23:09:57Z",
+      "Status": "通常",
+      "EditorialOffice": "大阪管区気象台",
+      "PublishingOffice": "気象庁"
+    },
+    "Head": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/informationBasis1/",
+      "Title": "震源・震度情報",
+      "ReportDateTime": "2024-01-05T08:09:00+09:00",
+      "TargetDateTime": "2024-01-05T08:09:00+09:00",
+      "EventID": "20240105080638",
+      "InfoType": "発表",
+      "Serial": "1",
+      "InfoKind": "地震情報",
+      "InfoKindVersion": "1.0_1",
+      "Headline": {
+        "Text": "５日０８時０６分ころ、地震がありました。"
+      }
+    },
+    "Body": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/body/seismology1/",
+      "@xmlns:jmx_eb": "http://xml.kishou.go.jp/jmaxml1/elementBasis1/",
+      "Earthquake": {
+        "OriginTime": "2024-01-05T08:06:00+09:00",
+        "ArrivalTime": "2024-01-05T08:06:00+09:00",
+        "Hypocenter": {
+          "Area": {
+            "Name": "大隅半島東方沖",
+            "Code": {
+              "@type": "震央地名",
+              "#text": "820"
+            },
+            "jmx_eb:Coordinate": {
+              "@description": "北緯３１．１度　東経１３１．５度　深さ　４０ｋｍ",
+              "@datum": "日本測地系",
+              "#text": "+31.1+131.5-40000/"
+            }
+          }
+        },
+        "jmx_eb:Magnitude": {
+          "@type": "Mj",
+          "@description": "Ｍ４．０",
+          "#text": "4.0"
+        }
+      },
+      "Intensity": {
+        "Observation": {
+          "CodeDefine": {
+            "Type": [
+              {
+                "@xpath": "Pref/Code",
+                "#text": "地震情報／都道府県等"
+              },
+              {
+                "@xpath": "Pref/Area/Code",
+                "#text": "地震情報／細分区域"
+              },
+              {
+                "@xpath": "Pref/Area/City/Code",
+                "#text": "気象・地震・火山情報／市町村等"
+              },
+              {
+                "@xpath": "Pref/Area/City/IntensityStation/Code",
+                "#text": "震度観測点"
+              }
+            ]
+          },
+          "MaxInt": "1",
+          "Pref": [
+            {
+              "Name": "宮崎県",
+              "Code": "45",
+              "MaxInt": "1",
+              "Area": {
+                "Name": "宮崎県南部平野部",
+                "Code": "762",
+                "MaxInt": "1",
+                "City": [
+                  {
+                    "Name": "日南市",
+                    "Code": "4520400",
+                    "MaxInt": "1",
+                    "IntensityStation": [
+                      {
+                        "Name": "日南市油津",
+                        "Code": "4520400",
+                        "Int": "1"
+                      },
+                      {
+                        "Name": "日南市吾田東＊",
+                        "Code": "4520420",
+                        "Int": "1"
+                      },
+                      {
+                        "Name": "日南市南郷町南町＊",
+                        "Code": "4520433",
+                        "Int": "1"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "串間市",
+                    "Code": "4520700",
+                    "MaxInt": "1",
+                    "IntensityStation": {
+                      "Name": "串間市都井＊",
+                      "Code": "4520720",
+                      "Int": "1"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Name": "鹿児島県",
+              "Code": "46",
+              "MaxInt": "1",
+              "Area": {
+                "Name": "鹿児島県大隅",
+                "Code": "771",
+                "MaxInt": "1",
+                "City": [
+                  {
+                    "Name": "鹿屋市",
+                    "Code": "4620300",
+                    "MaxInt": "1",
+                    "IntensityStation": {
+                      "Name": "鹿屋市新栄町",
+                      "Code": "4620300",
+                      "Int": "1"
+                    }
+                  },
+                  {
+                    "Name": "志布志市",
+                    "Code": "4622100",
+                    "MaxInt": "1",
+                    "IntensityStation": {
+                      "Name": "志布志市志布志町志布志",
+                      "Code": "4622100",
+                      "Int": "1"
+                    }
+                  },
+                  {
+                    "Name": "大崎町",
+                    "Code": "4646800",
+                    "MaxInt": "1",
+                    "IntensityStation": {
+                      "Name": "大崎町仮宿＊",
+                      "Code": "4646820",
+                      "Int": "1"
+                    }
+                  },
+                  {
+                    "Name": "錦江町",
+                    "Code": "4649000",
+                    "MaxInt": "1",
+                    "IntensityStation": {
+                      "Name": "錦江町田代支所＊",
+                      "Code": "4649020",
+                      "Int": "1"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "Comments": {
+        "ForecastComment": {
+          "@codeType": "固定付加文",
+          "Text": "この地震による津波の心配はありません。",
+          "Code": "0215"
+        },
+        "VarComment": {
+          "@codeType": "固定付加文",
+          "Text": "＊印は気象庁以外の震度観測点についての情報です。",
+          "Code": "0262"
+        }
+      }
+    }
+  }
+}

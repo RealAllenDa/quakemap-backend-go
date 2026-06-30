@@ -1,0 +1,93 @@
+{
+  "Report": {
+    "@xmlns": "http://xml.kishou.go.jp/jmaxml1/",
+    "@xmlns:jmx": "http://xml.kishou.go.jp/jmaxml1/",
+    "Control": {
+      "Title": "緊急地震速報（地震動予報）",
+      "DateTime": "2024-01-02T12:14:14Z",
+      "Status": "通常",
+      "EditorialOffice": "気象庁本庁",
+      "PublishingOffice": "気象庁"
+    },
+    "Head": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/informationBasis1/",
+      "Title": "緊急地震速報（地震動予報）",
+      "ReportDateTime": "2024-01-02T21:14:14+09:00",
+      "TargetDateTime": "2024-01-02T21:14:14+09:00",
+      "EventID": "20240102211324",
+      "InfoType": "発表",
+      "Serial": "6",
+      "InfoKind": "緊急地震速報",
+      "InfoKindVersion": "1.2_0",
+      "Headline": {
+        "Text": null
+      }
+    },
+    "Body": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/body/seismology1/",
+      "@xmlns:jmx_eb": "http://xml.kishou.go.jp/jmaxml1/elementBasis1/",
+      "Earthquake": {
+        "OriginTime": "2024-01-02T21:13:21+09:00",
+        "ArrivalTime": "2024-01-02T21:13:24+09:00",
+        "Hypocenter": {
+          "Area": {
+            "Name": "石川県能登地方",
+            "Code": {
+              "@type": "震央地名",
+              "#text": "390"
+            },
+            "jmx_eb:Coordinate": {
+              "@description": "北緯３７．３度　東経１３６．９度　深さ　２０ｋｍ",
+              "@datum": "日本測地系",
+              "#text": "+37.3+136.9-20000/"
+            },
+            "ReduceName": "石川県",
+            "ReduceCode": {
+              "@type": "短縮用震央地名",
+              "#text": "9170"
+            },
+            "LandOrSea": "内陸"
+          },
+          "Accuracy": {
+            "Epicenter": {
+              "@rank": "4",
+              "@rank2": "4",
+              "#text": "NaN"
+            },
+            "Depth": {
+              "@rank": "4",
+              "#text": "NaN"
+            },
+            "MagnitudeCalculation": {
+              "@rank": "5",
+              "#text": "NaN"
+            },
+            "NumberOfMagnitudeCalculation": "5"
+          }
+        },
+        "jmx_eb:Magnitude": {
+          "@type": "Mj",
+          "@description": "Ｍ４．３",
+          "#text": "4.3"
+        }
+      },
+      "Intensity": {
+        "Forecast": {
+          "ForecastInt": {
+            "From": "3",
+            "To": "3"
+          },
+          "ForecastLgInt": {
+            "From": "0",
+            "To": "0"
+          },
+          "Appendix": {
+            "MaxIntChange": "0",
+            "MaxLgIntChange": "0",
+            "MaxIntChangeReason": "0"
+          }
+        }
+      }
+    }
+  }
+}

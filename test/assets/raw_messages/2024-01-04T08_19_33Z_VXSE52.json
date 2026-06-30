@@ -1,0 +1,61 @@
+{
+  "Report": {
+    "@xmlns": "http://xml.kishou.go.jp/jmaxml1/",
+    "@xmlns:jmx": "http://xml.kishou.go.jp/jmaxml1/",
+    "Control": {
+      "Title": "震源に関する情報",
+      "DateTime": "2024-01-04T08:19:33Z",
+      "Status": "通常",
+      "EditorialOffice": "気象庁本庁",
+      "PublishingOffice": "気象庁"
+    },
+    "Head": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/informationBasis1/",
+      "Title": "震源に関する情報",
+      "ReportDateTime": "2024-01-04T17:19:00+09:00",
+      "TargetDateTime": "2024-01-04T17:19:00+09:00",
+      "EventID": "20240104171642",
+      "InfoType": "発表",
+      "Serial": null,
+      "InfoKind": "震源速報",
+      "InfoKindVersion": "1.0_1",
+      "Headline": {
+        "Text": "きょう　４日１７時１６分ころ、地震がありました。"
+      }
+    },
+    "Body": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/body/seismology1/",
+      "@xmlns:jmx_eb": "http://xml.kishou.go.jp/jmaxml1/elementBasis1/",
+      "Earthquake": {
+        "OriginTime": "2024-01-04T17:16:00+09:00",
+        "ArrivalTime": "2024-01-04T17:16:00+09:00",
+        "Hypocenter": {
+          "Area": {
+            "Name": "佐渡付近",
+            "Code": {
+              "@type": "震央地名",
+              "#text": "498"
+            },
+            "jmx_eb:Coordinate": {
+              "@description": "北緯３７．８度　東経１３７．６度　深さ　１０ｋｍ",
+              "@datum": "日本測地系",
+              "#text": "+37.8+137.6-10000/"
+            }
+          }
+        },
+        "jmx_eb:Magnitude": {
+          "@type": "Mj",
+          "@description": "Ｍ５．０",
+          "#text": "5.0"
+        }
+      },
+      "Comments": {
+        "ForecastComment": {
+          "@codeType": "固定付加文",
+          "Text": "この地震による津波の心配はありません。",
+          "Code": "0215"
+        }
+      }
+    }
+  }
+}

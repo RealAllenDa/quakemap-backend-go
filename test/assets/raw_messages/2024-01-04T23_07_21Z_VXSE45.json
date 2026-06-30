@@ -1,0 +1,94 @@
+{
+  "Report": {
+    "@xmlns": "http://xml.kishou.go.jp/jmaxml1/",
+    "@xmlns:jmx": "http://xml.kishou.go.jp/jmaxml1/",
+    "Control": {
+      "Title": "緊急地震速報（地震動予報）",
+      "DateTime": "2024-01-04T23:07:21Z",
+      "Status": "通常",
+      "EditorialOffice": "大阪管区気象台",
+      "PublishingOffice": "気象庁"
+    },
+    "Head": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/informationBasis1/",
+      "Title": "緊急地震速報（地震動予報）",
+      "ReportDateTime": "2024-01-05T08:07:21+09:00",
+      "TargetDateTime": "2024-01-05T08:07:21+09:00",
+      "EventID": "20240105080638",
+      "InfoType": "発表",
+      "Serial": "4",
+      "InfoKind": "緊急地震速報",
+      "InfoKindVersion": "1.2_0",
+      "Headline": {
+        "Text": null
+      }
+    },
+    "Body": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/body/seismology1/",
+      "@xmlns:jmx_eb": "http://xml.kishou.go.jp/jmaxml1/elementBasis1/",
+      "NextAdvisory": "この情報をもって、緊急地震速報：最終報とします。",
+      "Earthquake": {
+        "OriginTime": "2024-01-05T08:06:30+09:00",
+        "ArrivalTime": "2024-01-05T08:06:38+09:00",
+        "Hypocenter": {
+          "Area": {
+            "Name": "大隅半島東方沖",
+            "Code": {
+              "@type": "震央地名",
+              "#text": "820"
+            },
+            "jmx_eb:Coordinate": {
+              "@description": "北緯３１．１度　東経１３１．４度　深さ　１０ｋｍ",
+              "@datum": "日本測地系",
+              "#text": "+31.1+131.4-10000/"
+            },
+            "ReduceName": "鹿児島東方沖",
+            "ReduceCode": {
+              "@type": "短縮用震央地名",
+              "#text": "9832"
+            },
+            "LandOrSea": "海域"
+          },
+          "Accuracy": {
+            "Epicenter": {
+              "@rank": "4",
+              "@rank2": "9",
+              "#text": "NaN"
+            },
+            "Depth": {
+              "@rank": "4",
+              "#text": "NaN"
+            },
+            "MagnitudeCalculation": {
+              "@rank": "2",
+              "#text": "NaN"
+            },
+            "NumberOfMagnitudeCalculation": "0"
+          }
+        },
+        "jmx_eb:Magnitude": {
+          "@type": "Mj",
+          "@description": "Ｍ３．８",
+          "#text": "3.8"
+        }
+      },
+      "Intensity": {
+        "Forecast": {
+          "ForecastInt": {
+            "From": "2",
+            "To": "2"
+          },
+          "ForecastLgInt": {
+            "From": "0",
+            "To": "0"
+          },
+          "Appendix": {
+            "MaxIntChange": "0",
+            "MaxLgIntChange": "0",
+            "MaxIntChangeReason": "0"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1598 @@
+{
+  "Report": {
+    "@xmlns": "http://xml.kishou.go.jp/jmaxml1/",
+    "@xmlns:jmx": "http://xml.kishou.go.jp/jmaxml1/",
+    "Control": {
+      "Title": "震源・震度に関する情報",
+      "DateTime": "2024-01-04T08:20:29Z",
+      "Status": "通常",
+      "EditorialOffice": "気象庁本庁",
+      "PublishingOffice": "気象庁"
+    },
+    "Head": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/informationBasis1/",
+      "Title": "震源・震度情報",
+      "ReportDateTime": "2024-01-04T17:20:00+09:00",
+      "TargetDateTime": "2024-01-04T17:20:00+09:00",
+      "EventID": "20240104171642",
+      "InfoType": "発表",
+      "Serial": "1",
+      "InfoKind": "地震情報",
+      "InfoKindVersion": "1.0_1",
+      "Headline": {
+        "Text": "４日１７時１６分ころ、地震がありました。",
+        "Information": [
+          {
+            "@type": "震源・震度に関する情報（細分区域）",
+            "Item": {
+              "Kind": {
+                "Name": "震度３"
+              },
+              "Areas": {
+                "@codeType": "地震情報／細分区域",
+                "Area": [
+                  {
+                    "Name": "新潟県上越",
+                    "Code": "370"
+                  },
+                  {
+                    "Name": "新潟県佐渡",
+                    "Code": "375"
+                  },
+                  {
+                    "Name": "石川県能登",
+                    "Code": "390"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "@type": "震源・震度に関する情報（市町村等）",
+            "Item": {
+              "Kind": {
+                "Name": "震度３"
+              },
+              "Areas": {
+                "@codeType": "気象・地震・火山情報／市町村等",
+                "Area": [
+                  {
+                    "Name": "妙高市",
+                    "Code": "1521700"
+                  },
+                  {
+                    "Name": "佐渡市",
+                    "Code": "1522400"
+                  },
+                  {
+                    "Name": "輪島市",
+                    "Code": "1720400"
+                  },
+                  {
+                    "Name": "志賀町",
+                    "Code": "1738400"
+                  },
+                  {
+                    "Name": "中能登町",
+                    "Code": "1740700"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "Body": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/body/seismology1/",
+      "@xmlns:jmx_eb": "http://xml.kishou.go.jp/jmaxml1/elementBasis1/",
+      "Earthquake": {
+        "OriginTime": "2024-01-04T17:16:00+09:00",
+        "ArrivalTime": "2024-01-04T17:16:00+09:00",
+        "Hypocenter": {
+          "Area": {
+            "Name": "佐渡付近",
+            "Code": {
+              "@type": "震央地名",
+              "#text": "498"
+            },
+            "jmx_eb:Coordinate": {
+              "@description": "北緯３７．８度　東経１３７．６度　深さ　１０ｋｍ",
+              "@datum": "日本測地系",
+              "#text": "+37.8+137.6-10000/"
+            }
+          }
+        },
+        "jmx_eb:Magnitude": {
+          "@type": "Mj",
+          "@description": "Ｍ５．０",
+          "#text": "5.0"
+        }
+      },
+      "Intensity": {
+        "Observation": {
+          "CodeDefine": {
+            "Type": [
+              {
+                "@xpath": "Pref/Code",
+                "#text": "地震情報／都道府県等"
+              },
+              {
+                "@xpath": "Pref/Area/Code",
+                "#text": "地震情報／細分区域"
+              },
+              {
+                "@xpath": "Pref/Area/City/Code",
+                "#text": "気象・地震・火山情報／市町村等"
+              },
+              {
+                "@xpath": "Pref/Area/City/IntensityStation/Code",
+                "#text": "震度観測点"
+              }
+            ]
+          },
+          "MaxInt": "3",
+          "Pref": [
+            {
+              "Name": "新潟県",
+              "Code": "15",
+              "MaxInt": "3",
+              "Area": [
+                {
+                  "Name": "新潟県上越",
+                  "Code": "370",
+                  "MaxInt": "3",
+                  "City": [
+                    {
+                      "Name": "妙高市",
+                      "Code": "1521700",
+                      "MaxInt": "3",
+                      "IntensityStation": [
+                        {
+                          "Name": "妙高市田口＊",
+                          "Code": "1521735",
+                          "Int": "3"
+                        },
+                        {
+                          "Name": "妙高市田町＊",
+                          "Code": "1521720",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "妙高市栄町＊",
+                          "Code": "1521733",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "妙高市関山＊",
+                          "Code": "1521734",
+                          "Int": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "糸魚川市",
+                      "Code": "1521600",
+                      "MaxInt": "2",
+                      "IntensityStation": [
+                        {
+                          "Name": "糸魚川市一の宮",
+                          "Code": "1521600",
+                          "Int": "2"
+                        },
+                        {
+                          "Name": "糸魚川市大野＊",
+                          "Code": "1521620",
+                          "Int": "2"
+                        },
+                        {
+                          "Name": "糸魚川市能生＊",
+                          "Code": "1521633",
+                          "Int": "2"
+                        },
+                        {
+                          "Name": "糸魚川市青海＊",
+                          "Code": "1521632",
+                          "Int": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "上越市",
+                      "Code": "1522200",
+                      "MaxInt": "2",
+                      "IntensityStation": [
+                        {
+                          "Name": "上越市大手町",
+                          "Code": "1522202",
+                          "Int": "2"
+                        },
+                        {
+                          "Name": "上越市木田＊",
+                          "Code": "1522230",
+                          "Int": "2"
+                        },
+                        {
+                          "Name": "上越市安塚区安塚＊",
+                          "Code": "1522231",
+                          "Int": "2"
+                        },
+                        {
+                          "Name": "上越市牧区柳島＊",
+                          "Code": "1522234",
+                          "Int": "2"
+                        },
+                        {
+                          "Name": "上越市柿崎区柿崎＊",
+                          "Code": "1522235",
+                          "Int": "2"
+                        },
+                        {
+                          "Name": "上越市頸城区百間町＊",
+                          "Code": "1522237",
+                          "Int": "2"
+                        },
+                        {
+                          "Name": "上越市三和区井ノ口＊",
+                          "Code": "1522242",
+                          "Int": "2"
+                        },
+                        {
+                          "Name": "上越市中ノ俣",
+                          "Code": "1522201",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "上越市浦川原区釜淵＊",
+                          "Code": "1522232",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "上越市大潟区土底浜＊",
+                          "Code": "1522236",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "上越市吉川区原之町＊",
+                          "Code": "1522238",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "上越市中郷区藤沢＊",
+                          "Code": "1522239",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "上越市清里区荒牧＊",
+                          "Code": "1522241",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "上越市大島区岡＊",
+                          "Code": "1522244",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "上越市板倉区針＊",
+                          "Code": "1522245",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "上越市名立区名立大町＊",
+                          "Code": "1522246",
+                          "Int": "1"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "Name": "新潟県佐渡",
+                  "Code": "375",
+                  "MaxInt": "3",
+                  "City": {
+                    "Name": "佐渡市",
+                    "Code": "1522400",
+                    "MaxInt": "3",
+                    "IntensityStation": [
+                      {
+                        "Name": "佐渡市相川三町目",
+                        "Code": "1522402",
+                        "Int": "3"
+                      },
+                      {
+                        "Name": "佐渡市岩谷口＊",
+                        "Code": "1522420",
+                        "Int": "2"
+                      },
+                      {
+                        "Name": "佐渡市松ヶ崎＊",
+                        "Code": "1522424",
+                        "Int": "2"
+                      },
+                      {
+                        "Name": "佐渡市千種＊",
+                        "Code": "1522430",
+                        "Int": "2"
+                      },
+                      {
+                        "Name": "佐渡市河原田本町＊",
+                        "Code": "1522433",
+                        "Int": "2"
+                      },
+                      {
+                        "Name": "佐渡市畑野＊",
+                        "Code": "1522435",
+                        "Int": "2"
+                      },
+                      {
+                        "Name": "佐渡市羽茂本郷＊",
+                        "Code": "1522438",
+                        "Int": "2"
+                      },
+                      {
+                        "Name": "佐渡市真野新町＊",
+                        "Code": "1522440",
+                        "Int": "2"
+                      },
+                      {
+                        "Name": "佐渡市赤泊＊",
+                        "Code": "1522441",
+                        "Int": "2"
+                      },
+                      {
+                        "Name": "佐渡市相川栄町＊",
+                        "Code": "1522443",
+                        "Int": "2"
+                      },
+                      {
+                        "Name": "佐渡市両津支所＊",
+                        "Code": "1522445",
+                        "Int": "2"
+                      },
+                      {
+                        "Name": "佐渡市新穂瓜生屋＊",
+                        "Code": "1522446",
+                        "Int": "2"
+                      },
+                      {
+                        "Name": "佐渡市小木町＊",
+                        "Code": "1522447",
+                        "Int": "2"
+                      },
+                      {
+                        "Name": "佐渡市相川金山",
+                        "Code": "1522401",
+                        "Int": "1"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Name": "新潟県中越",
+                  "Code": "371",
+                  "MaxInt": "2",
+                  "City": [
+                    {
+                      "Name": "長岡市",
+                      "Code": "1520200",
+                      "MaxInt": "2",
+                      "IntensityStation": [
+                        {
+                          "Name": "長岡市浦＊",
+                          "Code": "1520231",
+                          "Int": "2"
+                        },
+                        {
+                          "Name": "長岡市寺泊烏帽子平＊",
+                          "Code": "1520243",
+                          "Int": "2"
+                        },
+                        {
+                          "Name": "長岡市中之島＊",
+                          "Code": "1520245",
+                          "Int": "2"
+                        },
+                        {
+                          "Name": "長岡市幸町",
+                          "Code": "1520200",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "長岡市寺泊一里塚＊",
+                          "Code": "1520220",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "長岡市千手＊",
+                          "Code": "1520221",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "長岡市上岩井＊",
+                          "Code": "1520232",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "長岡市小国町法坂＊",
+                          "Code": "1520234",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "長岡市小島谷＊",
+                          "Code": "1520237",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "長岡市山古志竹沢＊",
+                          "Code": "1520240",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "長岡市金町＊",
+                          "Code": "1520241",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "長岡市寺泊敦ケ曽根＊",
+                          "Code": "1520242",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "長岡市東川口＊",
+                          "Code": "1520244",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "長岡市与板町与板＊",
+                          "Code": "1520246",
+                          "Int": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "柏崎市",
+                      "Code": "1520500",
+                      "MaxInt": "2",
+                      "IntensityStation": [
+                        {
+                          "Name": "柏崎市西山町池浦＊",
+                          "Code": "1520534",
+                          "Int": "2"
+                        },
+                        {
+                          "Name": "柏崎市高柳町岡野町＊",
+                          "Code": "1520536",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "柏崎市日石町＊",
+                          "Code": "1520537",
+                          "Int": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "出雲崎町",
+                      "Code": "1540500",
+                      "MaxInt": "2",
+                      "IntensityStation": [
+                        {
+                          "Name": "出雲崎町米田",
+                          "Code": "1540500",
+                          "Int": "2"
+                        },
+                        {
+                          "Name": "出雲崎町川西＊",
+                          "Code": "1540530",
+                          "Int": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "刈羽村",
+                      "Code": "1550400",
+                      "MaxInt": "2",
+                      "IntensityStation": {
+                        "Name": "刈羽村割町新田＊",
+                        "Code": "1550433",
+                        "Int": "2"
+                      }
+                    },
+                    {
+                      "Name": "三条市",
+                      "Code": "1520400",
+                      "MaxInt": "1",
+                      "IntensityStation": [
+                        {
+                          "Name": "三条市西裏館＊",
+                          "Code": "1520431",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "三条市新堀＊",
+                          "Code": "1520433",
+                          "Int": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "小千谷市",
+                      "Code": "1520800",
+                      "MaxInt": "1",
+                      "IntensityStation": [
+                        {
+                          "Name": "小千谷市城内",
+                          "Code": "1520800",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "小千谷市旭町＊",
+                          "Code": "1520821",
+                          "Int": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "加茂市",
+                      "Code": "1520900",
+                      "MaxInt": "1",
+                      "IntensityStation": {
+                        "Name": "加茂市幸町＊",
+                        "Code": "1520930",
+                        "Int": "1"
+                      }
+                    },
+                    {
+                      "Name": "十日町市",
+                      "Code": "1521000",
+                      "MaxInt": "1",
+                      "IntensityStation": [
+                        {
+                          "Name": "十日町市下条＊",
+                          "Code": "1521021",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "十日町市千歳町＊",
+                          "Code": "1521031",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "十日町市松代＊",
+                          "Code": "1521039",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "十日町市水口沢＊",
+                          "Code": "1521040",
+                          "Int": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "見附市",
+                      "Code": "1521100",
+                      "MaxInt": "1",
+                      "IntensityStation": {
+                        "Name": "見附市昭和町＊",
+                        "Code": "1521131",
+                        "Int": "1"
+                      }
+                    },
+                    {
+                      "Name": "魚沼市",
+                      "Code": "1522500",
+                      "MaxInt": "1",
+                      "IntensityStation": [
+                        {
+                          "Name": "魚沼市下折立",
+                          "Code": "1522501",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "魚沼市堀之内＊",
+                          "Code": "1522536",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "魚沼市須原＊",
+                          "Code": "1522537",
+                          "Int": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "南魚沼市",
+                      "Code": "1522600",
+                      "MaxInt": "1",
+                      "IntensityStation": {
+                        "Name": "南魚沼市六日町",
+                        "Code": "1522600",
+                        "Int": "1"
+                      }
+                    },
+                    {
+                      "Name": "田上町",
+                      "Code": "1536100",
+                      "MaxInt": "1",
+                      "IntensityStation": {
+                        "Name": "田上町原ケ崎新田＊",
+                        "Code": "1536130",
+                        "Int": "1"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Name": "新潟県下越",
+                  "Code": "372",
+                  "MaxInt": "2",
+                  "City": [
+                    {
+                      "Name": "新潟南区",
+                      "Code": "1510600",
+                      "MaxInt": "2",
+                      "IntensityStation": {
+                        "Name": "新潟南区白根＊",
+                        "Code": "1510630",
+                        "Int": "2"
+                      }
+                    },
+                    {
+                      "Name": "新潟西区",
+                      "Code": "1510700",
+                      "MaxInt": "2",
+                      "IntensityStation": {
+                        "Name": "新潟西区寺尾東＊",
+                        "Code": "1510731",
+                        "Int": "2"
+                      }
+                    },
+                    {
+                      "Name": "燕市",
+                      "Code": "1521300",
+                      "MaxInt": "2",
+                      "IntensityStation": [
+                        {
+                          "Name": "燕市分水桜町＊",
+                          "Code": "1521339",
+                          "Int": "2"
+                        },
+                        {
+                          "Name": "燕市秋葉町＊",
+                          "Code": "1521336",
+                          "Int": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "新潟北区",
+                      "Code": "1510100",
+                      "MaxInt": "1",
+                      "IntensityStation": {
+                        "Name": "新潟北区東栄町＊",
+                        "Code": "1510131",
+                        "Int": "1"
+                      }
+                    },
+                    {
+                      "Name": "新潟東区",
+                      "Code": "1510200",
+                      "MaxInt": "1",
+                      "IntensityStation": {
+                        "Name": "新潟空港",
+                        "Code": "1510200",
+                        "Int": "1"
+                      }
+                    },
+                    {
+                      "Name": "新潟中央区",
+                      "Code": "1510300",
+                      "MaxInt": "1",
+                      "IntensityStation": {
+                        "Name": "新潟中央区美咲町",
+                        "Code": "1510301",
+                        "Int": "1"
+                      }
+                    },
+                    {
+                      "Name": "新潟江南区",
+                      "Code": "1510400",
+                      "MaxInt": "1",
+                      "IntensityStation": {
+                        "Name": "新潟江南区泉町＊",
+                        "Code": "1510430",
+                        "Int": "1"
+                      }
+                    },
+                    {
+                      "Name": "新潟秋葉区",
+                      "Code": "1510500",
+                      "MaxInt": "1",
+                      "IntensityStation": [
+                        {
+                          "Name": "新潟秋葉区程島",
+                          "Code": "1510500",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "新潟秋葉区新津東町＊",
+                          "Code": "1510520",
+                          "Int": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "新潟西蒲区",
+                      "Code": "1510800",
+                      "MaxInt": "1",
+                      "IntensityStation": [
+                        {
+                          "Name": "新潟西蒲区役所",
+                          "Code": "1510800",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "新潟西蒲区巻甲＊",
+                          "Code": "1510820",
+                          "Int": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "五泉市",
+                      "Code": "1521800",
+                      "MaxInt": "1",
+                      "IntensityStation": {
+                        "Name": "五泉市太田＊",
+                        "Code": "1521830",
+                        "Int": "1"
+                      }
+                    },
+                    {
+                      "Name": "阿賀野市",
+                      "Code": "1522300",
+                      "MaxInt": "1",
+                      "IntensityStation": [
+                        {
+                          "Name": "阿賀野市畑江",
+                          "Code": "1522300",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "阿賀野市姥ヶ橋＊",
+                          "Code": "1522335",
+                          "Int": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "聖籠町",
+                      "Code": "1530700",
+                      "MaxInt": "1",
+                      "IntensityStation": {
+                        "Name": "聖籠町諏訪山＊",
+                        "Code": "1530731",
+                        "Int": "1"
+                      }
+                    },
+                    {
+                      "Name": "弥彦村",
+                      "Code": "1534200",
+                      "MaxInt": "1",
+                      "IntensityStation": {
+                        "Name": "弥彦村矢作＊",
+                        "Code": "1534231",
+                        "Int": "1"
+                      }
+                    },
+                    {
+                      "Name": "阿賀町",
+                      "Code": "1538500",
+                      "MaxInt": "1",
+                      "IntensityStation": [
+                        {
+                          "Name": "阿賀町鹿瀬中学校＊",
+                          "Code": "1538520",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "阿賀町白崎＊",
+                          "Code": "1538533",
+                          "Int": "1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "石川県",
+              "Code": "17",
+              "MaxInt": "3",
+              "Area": [
+                {
+                  "Name": "石川県能登",
+                  "Code": "390",
+                  "MaxInt": "3",
+                  "City": [
+                    {
+                      "Name": "輪島市",
+                      "Code": "1720400",
+                      "MaxInt": "3",
+                      "IntensityStation": [
+                        {
+                          "Name": "輪島市舳倉島",
+                          "Code": "1720401",
+                          "Int": "3"
+                        },
+                        {
+                          "Name": "輪島市鳳至町",
+                          "Code": "1720402",
+                          "Int": "3"
+                        },
+                        {
+                          "Name": "輪島市河井町＊",
+                          "Code": "1720420",
+                          "Int": "2"
+                        },
+                        {
+                          "Name": "輪島市門前町走出＊",
+                          "Code": "1720431",
+                          "Int": "2"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "志賀町",
+                      "Code": "1738400",
+                      "MaxInt": "3",
+                      "IntensityStation": [
+                        {
+                          "Name": "志賀町富来領家町",
+                          "Code": "1738400",
+                          "Int": "3"
+                        },
+                        {
+                          "Name": "志賀町香能＊",
+                          "Code": "1738420",
+                          "Int": "2"
+                        },
+                        {
+                          "Name": "志賀町末吉千古＊",
+                          "Code": "1738431",
+                          "Int": "2"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "中能登町",
+                      "Code": "1740700",
+                      "MaxInt": "3",
+                      "IntensityStation": [
+                        {
+                          "Name": "中能登町末坂＊",
+                          "Code": "1740733",
+                          "Int": "3"
+                        },
+                        {
+                          "Name": "中能登町井田＊",
+                          "Code": "1740734",
+                          "Int": "2"
+                        },
+                        {
+                          "Name": "中能登町能登部下＊",
+                          "Code": "1740735",
+                          "Int": "2"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "七尾市",
+                      "Code": "1720200",
+                      "MaxInt": "2",
+                      "IntensityStation": [
+                        {
+                          "Name": "七尾市本府中町",
+                          "Code": "1720200",
+                          "Int": "2"
+                        },
+                        {
+                          "Name": "七尾市袖ヶ江町＊",
+                          "Code": "1720220",
+                          "Int": "2"
+                        },
+                        {
+                          "Name": "七尾市中島町中島＊",
+                          "Code": "1720234",
+                          "Int": "2"
+                        },
+                        {
+                          "Name": "七尾市垣吉町＊",
+                          "Code": "1720236",
+                          "Int": "2"
+                        },
+                        {
+                          "Name": "七尾市能登島向田町＊",
+                          "Code": "1720237",
+                          "Int": "2"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "羽咋市",
+                      "Code": "1720700",
+                      "MaxInt": "2",
+                      "IntensityStation": [
+                        {
+                          "Name": "羽咋市旭町＊",
+                          "Code": "1720720",
+                          "Int": "2"
+                        },
+                        {
+                          "Name": "羽咋市柳田町",
+                          "Code": "1720700",
+                          "Int": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "宝達志水町",
+                      "Code": "1738600",
+                      "MaxInt": "2",
+                      "IntensityStation": {
+                        "Name": "宝達志水町子浦＊",
+                        "Code": "1738633",
+                        "Int": "2"
+                      }
+                    },
+                    {
+                      "Name": "能登町",
+                      "Code": "1746300",
+                      "MaxInt": "2",
+                      "IntensityStation": {
+                        "Name": "能登町宇出津",
+                        "Code": "1746301",
+                        "Int": "2"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Name": "石川県加賀",
+                  "Code": "391",
+                  "MaxInt": "2",
+                  "City": [
+                    {
+                      "Name": "金沢市",
+                      "Code": "1720100",
+                      "MaxInt": "2",
+                      "IntensityStation": [
+                        {
+                          "Name": "金沢市西念",
+                          "Code": "1720100",
+                          "Int": "2"
+                        },
+                        {
+                          "Name": "金沢市弥生＊",
+                          "Code": "1720120",
+                          "Int": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "かほく市",
+                      "Code": "1720900",
+                      "MaxInt": "2",
+                      "IntensityStation": [
+                        {
+                          "Name": "かほく市宇野気＊",
+                          "Code": "1720932",
+                          "Int": "2"
+                        },
+                        {
+                          "Name": "かほく市高松＊",
+                          "Code": "1720933",
+                          "Int": "2"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "津幡町",
+                      "Code": "1736100",
+                      "MaxInt": "2",
+                      "IntensityStation": {
+                        "Name": "津幡町加賀爪",
+                        "Code": "1736101",
+                        "Int": "2"
+                      }
+                    },
+                    {
+                      "Name": "小松市",
+                      "Code": "1720300",
+                      "MaxInt": "1",
+                      "IntensityStation": [
+                        {
+                          "Name": "小松市小馬出町",
+                          "Code": "1720300",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "小松市向本折町＊",
+                          "Code": "1720320",
+                          "Int": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "加賀市",
+                      "Code": "1720600",
+                      "MaxInt": "1",
+                      "IntensityStation": {
+                        "Name": "加賀市大聖寺南町＊",
+                        "Code": "1720620",
+                        "Int": "1"
+                      }
+                    },
+                    {
+                      "Name": "白山市",
+                      "Code": "1721000",
+                      "MaxInt": "1",
+                      "IntensityStation": {
+                        "Name": "白山市美川浜町＊",
+                        "Code": "1721036",
+                        "Int": "1"
+                      }
+                    },
+                    {
+                      "Name": "能美市",
+                      "Code": "1721100",
+                      "MaxInt": "1",
+                      "IntensityStation": [
+                        {
+                          "Name": "能美市中町＊",
+                          "Code": "1721133",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "能美市来丸町＊",
+                          "Code": "1721135",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "能美市寺井町＊",
+                          "Code": "1721136",
+                          "Int": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "内灘町",
+                      "Code": "1736500",
+                      "MaxInt": "1",
+                      "IntensityStation": {
+                        "Name": "内灘町大学＊",
+                        "Code": "1736531",
+                        "Int": "1"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "富山県",
+              "Code": "16",
+              "MaxInt": "2",
+              "Area": [
+                {
+                  "Name": "富山県東部",
+                  "Code": "380",
+                  "MaxInt": "2",
+                  "City": [
+                    {
+                      "Name": "富山市",
+                      "Code": "1620100",
+                      "MaxInt": "2",
+                      "IntensityStation": [
+                        {
+                          "Name": "富山市新桜町＊",
+                          "Code": "1620130",
+                          "Int": "2"
+                        },
+                        {
+                          "Name": "富山市石坂",
+                          "Code": "1620100",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "富山市八尾町福島",
+                          "Code": "1620102",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "富山市今泉＊",
+                          "Code": "1620123",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "富山市婦中町笹倉＊",
+                          "Code": "1620133",
+                          "Int": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "魚津市",
+                      "Code": "1620400",
+                      "MaxInt": "1",
+                      "IntensityStation": {
+                        "Name": "魚津市釈迦堂",
+                        "Code": "1620400",
+                        "Int": "1"
+                      }
+                    },
+                    {
+                      "Name": "滑川市",
+                      "Code": "1620600",
+                      "MaxInt": "1",
+                      "IntensityStation": {
+                        "Name": "滑川市寺家町＊",
+                        "Code": "1620630",
+                        "Int": "1"
+                      }
+                    },
+                    {
+                      "Name": "黒部市",
+                      "Code": "1620700",
+                      "MaxInt": "1",
+                      "IntensityStation": [
+                        {
+                          "Name": "黒部市宇奈月町下立＊",
+                          "Code": "1620720",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "黒部市植木＊",
+                          "Code": "1620732",
+                          "Int": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "舟橋村",
+                      "Code": "1632100",
+                      "MaxInt": "1",
+                      "IntensityStation": {
+                        "Name": "舟橋村仏生寺＊",
+                        "Code": "1632130",
+                        "Int": "1"
+                      }
+                    },
+                    {
+                      "Name": "上市町",
+                      "Code": "1632200",
+                      "MaxInt": "1",
+                      "IntensityStation": {
+                        "Name": "上市町稗田＊",
+                        "Code": "1632230",
+                        "Int": "1"
+                      }
+                    },
+                    {
+                      "Name": "立山町",
+                      "Code": "1632300",
+                      "MaxInt": "1",
+                      "IntensityStation": [
+                        {
+                          "Name": "立山町吉峰",
+                          "Code": "1632300",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "立山町芦峅寺＊",
+                          "Code": "1632320",
+                          "Int": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "富山朝日町",
+                      "Code": "1634300",
+                      "MaxInt": "1",
+                      "IntensityStation": {
+                        "Name": "富山朝日町道下",
+                        "Code": "1634300",
+                        "Int": "1"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Name": "富山県西部",
+                  "Code": "381",
+                  "MaxInt": "2",
+                  "City": [
+                    {
+                      "Name": "氷見市",
+                      "Code": "1620500",
+                      "MaxInt": "2",
+                      "IntensityStation": {
+                        "Name": "氷見市加納＊",
+                        "Code": "1620531",
+                        "Int": "2"
+                      }
+                    },
+                    {
+                      "Name": "小矢部市",
+                      "Code": "1620900",
+                      "MaxInt": "2",
+                      "IntensityStation": {
+                        "Name": "小矢部市泉町",
+                        "Code": "1620901",
+                        "Int": "2"
+                      }
+                    },
+                    {
+                      "Name": "射水市",
+                      "Code": "1621100",
+                      "MaxInt": "2",
+                      "IntensityStation": [
+                        {
+                          "Name": "射水市橋下条＊",
+                          "Code": "1621136",
+                          "Int": "2"
+                        },
+                        {
+                          "Name": "射水市加茂中部＊",
+                          "Code": "1621138",
+                          "Int": "2"
+                        },
+                        {
+                          "Name": "射水市小島＊",
+                          "Code": "1621134",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "射水市本町＊",
+                          "Code": "1621135",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "射水市二口＊",
+                          "Code": "1621137",
+                          "Int": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "高岡市",
+                      "Code": "1620200",
+                      "MaxInt": "1",
+                      "IntensityStation": [
+                        {
+                          "Name": "高岡市伏木",
+                          "Code": "1620200",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "高岡市広小路＊",
+                          "Code": "1620230",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "高岡市福岡町＊",
+                          "Code": "1620231",
+                          "Int": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "砺波市",
+                      "Code": "1620800",
+                      "MaxInt": "1",
+                      "IntensityStation": [
+                        {
+                          "Name": "砺波市栄町＊",
+                          "Code": "1620830",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "砺波市庄川町＊",
+                          "Code": "1620831",
+                          "Int": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "南砺市",
+                      "Code": "1621000",
+                      "MaxInt": "1",
+                      "IntensityStation": [
+                        {
+                          "Name": "南砺市城端＊",
+                          "Code": "1621030",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "南砺市蛇喰＊",
+                          "Code": "1621037",
+                          "Int": "1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "福井県",
+              "Code": "18",
+              "MaxInt": "2",
+              "Area": {
+                "Name": "福井県嶺北",
+                "Code": "400",
+                "MaxInt": "2",
+                "City": [
+                  {
+                    "Name": "福井坂井市",
+                    "Code": "1821000",
+                    "MaxInt": "2",
+                    "IntensityStation": [
+                      {
+                        "Name": "福井坂井市春江町随応寺＊",
+                        "Code": "1821033",
+                        "Int": "2"
+                      },
+                      {
+                        "Name": "福井坂井市三国町陣ケ岡",
+                        "Code": "1821001",
+                        "Int": "1"
+                      },
+                      {
+                        "Name": "福井坂井市三国町中央＊",
+                        "Code": "1821022",
+                        "Int": "1"
+                      },
+                      {
+                        "Name": "福井坂井市丸岡町西里丸岡＊",
+                        "Code": "1821030",
+                        "Int": "1"
+                      },
+                      {
+                        "Name": "福井坂井市坂井町下新庄＊",
+                        "Code": "1821032",
+                        "Int": "1"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "福井市",
+                    "Code": "1820100",
+                    "MaxInt": "1",
+                    "IntensityStation": {
+                      "Name": "福井市豊島",
+                      "Code": "1820100",
+                      "Int": "1"
+                    }
+                  },
+                  {
+                    "Name": "あわら市",
+                    "Code": "1820800",
+                    "MaxInt": "1",
+                    "IntensityStation": [
+                      {
+                        "Name": "あわら市市姫＊",
+                        "Code": "1820832",
+                        "Int": "1"
+                      },
+                      {
+                        "Name": "あわら市国影＊",
+                        "Code": "1820833",
+                        "Int": "1"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "越前町",
+                    "Code": "1842300",
+                    "MaxInt": "1",
+                    "IntensityStation": {
+                      "Name": "越前町西田中＊",
+                      "Code": "1842337",
+                      "Int": "1"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Name": "長野県",
+              "Code": "20",
+              "MaxInt": "2",
+              "Area": {
+                "Name": "長野県北部",
+                "Code": "420",
+                "MaxInt": "2",
+                "City": [
+                  {
+                    "Name": "長野市",
+                    "Code": "2020100",
+                    "MaxInt": "2",
+                    "IntensityStation": [
+                      {
+                        "Name": "長野市豊野町豊野＊",
+                        "Code": "2020134",
+                        "Int": "2"
+                      },
+                      {
+                        "Name": "長野市箱清水",
+                        "Code": "2020100",
+                        "Int": "1"
+                      },
+                      {
+                        "Name": "長野市鬼無里＊",
+                        "Code": "2020131",
+                        "Int": "1"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "信濃町",
+                    "Code": "2058300",
+                    "MaxInt": "2",
+                    "IntensityStation": {
+                      "Name": "信濃町柏原東裏＊",
+                      "Code": "2058320",
+                      "Int": "2"
+                    }
+                  },
+                  {
+                    "Name": "中野市",
+                    "Code": "2021100",
+                    "MaxInt": "1",
+                    "IntensityStation": {
+                      "Name": "中野市豊津＊",
+                      "Code": "2021131",
+                      "Int": "1"
+                    }
+                  },
+                  {
+                    "Name": "飯山市",
+                    "Code": "2021300",
+                    "MaxInt": "1",
+                    "IntensityStation": {
+                      "Name": "飯山市飯山福寿町＊",
+                      "Code": "2021320",
+                      "Int": "1"
+                    }
+                  },
+                  {
+                    "Name": "小谷村",
+                    "Code": "2048600",
+                    "MaxInt": "1",
+                    "IntensityStation": {
+                      "Name": "小谷村中小谷＊",
+                      "Code": "2048630",
+                      "Int": "1"
+                    }
+                  },
+                  {
+                    "Name": "小川村",
+                    "Code": "2058800",
+                    "MaxInt": "1",
+                    "IntensityStation": {
+                      "Name": "小川村高府＊",
+                      "Code": "2058830",
+                      "Int": "1"
+                    }
+                  },
+                  {
+                    "Name": "飯綱町",
+                    "Code": "2059000",
+                    "MaxInt": "1",
+                    "IntensityStation": [
+                      {
+                        "Name": "飯綱町芋川＊",
+                        "Code": "2059032",
+                        "Int": "1"
+                      },
+                      {
+                        "Name": "飯綱町牟礼＊",
+                        "Code": "2059033",
+                        "Int": "1"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "栄村",
+                    "Code": "2060200",
+                    "MaxInt": "1",
+                    "IntensityStation": {
+                      "Name": "栄村北信＊",
+                      "Code": "2060230",
+                      "Int": "1"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Name": "福島県",
+              "Code": "07",
+              "MaxInt": "1",
+              "Area": {
+                "Name": "福島県会津",
+                "Code": "252",
+                "MaxInt": "1",
+                "City": {
+                  "Name": "只見町",
+                  "Code": "0736700",
+                  "MaxInt": "1",
+                  "IntensityStation": {
+                    "Name": "只見町黒谷＊",
+                    "Code": "0736720",
+                    "Int": "1"
+                  }
+                }
+              }
+            },
+            {
+              "Name": "岐阜県",
+              "Code": "21",
+              "MaxInt": "1",
+              "Area": {
+                "Name": "岐阜県飛騨",
+                "Code": "430",
+                "MaxInt": "1",
+                "City": [
+                  {
+                    "Name": "高山市",
+                    "Code": "2120300",
+                    "MaxInt": "1",
+                    "IntensityStation": [
+                      {
+                        "Name": "高山市奥飛騨温泉郷栃尾＊",
+                        "Code": "2120321",
+                        "Int": "1"
+                      },
+                      {
+                        "Name": "高山市上宝町本郷＊",
+                        "Code": "2120344",
+                        "Int": "1"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "飛騨市",
+                    "Code": "2121700",
+                    "MaxInt": "1",
+                    "IntensityStation": {
+                      "Name": "飛騨市宮川町＊",
+                      "Code": "2121735",
+                      "Int": "1"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "Comments": {
+        "ForecastComment": {
+          "@codeType": "固定付加文",
+          "Text": "この地震による津波の心配はありません。",
+          "Code": "0215"
+        },
+        "VarComment": {
+          "@codeType": "固定付加文",
+          "Text": "＊印は気象庁以外の震度観測点についての情報です。",
+          "Code": "0262"
+        }
+      }
+    }
+  }
+}

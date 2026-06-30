@@ -1,0 +1,273 @@
+{
+  "Report": {
+    "@xmlns": "http://xml.kishou.go.jp/jmaxml1/",
+    "@xmlns:jmx": "http://xml.kishou.go.jp/jmaxml1/",
+    "Control": {
+      "Title": "震源・震度に関する情報",
+      "DateTime": "2024-01-01T08:57:14Z",
+      "Status": "通常",
+      "EditorialOffice": "大阪管区気象台",
+      "PublishingOffice": "気象庁"
+    },
+    "Head": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/informationBasis1/",
+      "Title": "震源・震度情報",
+      "ReportDateTime": "2024-01-01T17:57:00+09:00",
+      "TargetDateTime": "2024-01-01T17:57:00+09:00",
+      "EventID": "20240101175223",
+      "InfoType": "発表",
+      "Serial": "1",
+      "InfoKind": "地震情報",
+      "InfoKindVersion": "1.0_1",
+      "Headline": {
+        "Text": "１日１７時５３分ころ、地震がありました。",
+        "Information": [
+          {
+            "@type": "震源・震度に関する情報（細分区域）",
+            "Item": {
+              "Kind": {
+                "Name": "震度４"
+              },
+              "Areas": {
+                "@codeType": "地震情報／細分区域",
+                "Area": {
+                  "Name": "石川県能登",
+                  "Code": "390"
+                }
+              }
+            }
+          },
+          {
+            "@type": "震源・震度に関する情報（市町村等）",
+            "Item": {
+              "Kind": {
+                "Name": "震度４"
+              },
+              "Areas": {
+                "@codeType": "気象・地震・火山情報／市町村等",
+                "Area": {
+                  "Name": "輪島市",
+                  "Code": "1720400"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "Body": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/body/seismology1/",
+      "@xmlns:jmx_eb": "http://xml.kishou.go.jp/jmaxml1/elementBasis1/",
+      "Earthquake": {
+        "OriginTime": "2024-01-01T17:53:00+09:00",
+        "ArrivalTime": "2024-01-01T17:53:00+09:00",
+        "Hypocenter": {
+          "Area": {
+            "Name": "能登半島沖",
+            "Code": {
+              "@type": "震央地名",
+              "#text": "495"
+            },
+            "jmx_eb:Coordinate": {
+              "@description": "北緯３７．４度　東経１３６．８度　深さ　１０ｋｍ",
+              "@datum": "日本測地系",
+              "#text": "+37.4+136.8-10000/"
+            }
+          }
+        },
+        "jmx_eb:Magnitude": {
+          "@type": "Mj",
+          "@description": "Ｍ３．６",
+          "#text": "3.6"
+        }
+      },
+      "Intensity": {
+        "Observation": {
+          "CodeDefine": {
+            "Type": [
+              {
+                "@xpath": "Pref/Code",
+                "#text": "地震情報／都道府県等"
+              },
+              {
+                "@xpath": "Pref/Area/Code",
+                "#text": "地震情報／細分区域"
+              },
+              {
+                "@xpath": "Pref/Area/City/Code",
+                "#text": "気象・地震・火山情報／市町村等"
+              },
+              {
+                "@xpath": "Pref/Area/City/IntensityStation/Code",
+                "#text": "震度観測点"
+              }
+            ]
+          },
+          "MaxInt": "4",
+          "Pref": [
+            {
+              "Name": "石川県",
+              "Code": "17",
+              "MaxInt": "4",
+              "Area": {
+                "Name": "石川県能登",
+                "Code": "390",
+                "MaxInt": "4",
+                "City": [
+                  {
+                    "Name": "輪島市",
+                    "Code": "1720400",
+                    "MaxInt": "4",
+                    "IntensityStation": [
+                      {
+                        "Name": "輪島市鳳至町",
+                        "Code": "1720402",
+                        "Int": "4"
+                      },
+                      {
+                        "Name": "輪島市河井町＊",
+                        "Code": "1720420",
+                        "Int": "2"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "七尾市",
+                    "Code": "1720200",
+                    "MaxInt": "2",
+                    "IntensityStation": [
+                      {
+                        "Name": "七尾市中島町中島＊",
+                        "Code": "1720234",
+                        "Int": "2"
+                      },
+                      {
+                        "Name": "七尾市本府中町",
+                        "Code": "1720200",
+                        "Int": "1"
+                      },
+                      {
+                        "Name": "七尾市袖ヶ江町＊",
+                        "Code": "1720220",
+                        "Int": "1"
+                      },
+                      {
+                        "Name": "七尾市能登島向田町＊",
+                        "Code": "1720237",
+                        "Int": "1"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "珠洲市",
+                    "Code": "1720500",
+                    "MaxInt": "2",
+                    "IntensityStation": [
+                      {
+                        "Name": "珠洲市大谷町＊",
+                        "Code": "1720521",
+                        "Int": "2"
+                      },
+                      {
+                        "Name": "珠洲市正院町＊",
+                        "Code": "1720520",
+                        "Int": "1"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "穴水町",
+                    "Code": "1746100",
+                    "MaxInt": "2",
+                    "IntensityStation": {
+                      "Name": "穴水町大町＊",
+                      "Code": "1746121",
+                      "Int": "2"
+                    }
+                  },
+                  {
+                    "Name": "羽咋市",
+                    "Code": "1720700",
+                    "MaxInt": "1",
+                    "IntensityStation": [
+                      {
+                        "Name": "羽咋市柳田町",
+                        "Code": "1720700",
+                        "Int": "1"
+                      },
+                      {
+                        "Name": "羽咋市旭町＊",
+                        "Code": "1720720",
+                        "Int": "1"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "志賀町",
+                    "Code": "1738400",
+                    "MaxInt": "1",
+                    "IntensityStation": [
+                      {
+                        "Name": "志賀町富来領家町",
+                        "Code": "1738400",
+                        "Int": "1"
+                      },
+                      {
+                        "Name": "志賀町末吉千古＊",
+                        "Code": "1738431",
+                        "Int": "1"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "能登町",
+                    "Code": "1746300",
+                    "MaxInt": "1",
+                    "IntensityStation": {
+                      "Name": "能登町宇出津",
+                      "Code": "1746301",
+                      "Int": "1"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Name": "富山県",
+              "Code": "16",
+              "MaxInt": "1",
+              "Area": {
+                "Name": "富山県東部",
+                "Code": "380",
+                "MaxInt": "1",
+                "City": {
+                  "Name": "富山市",
+                  "Code": "1620100",
+                  "MaxInt": "1",
+                  "IntensityStation": {
+                    "Name": "富山市新桜町＊",
+                    "Code": "1620130",
+                    "Int": "1"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Comments": {
+        "ForecastComment": {
+          "@codeType": "固定付加文",
+          "Text": "津波警報等（大津波警報・津波警報あるいは津波注意報）を発表中です。",
+          "Code": "0211"
+        },
+        "VarComment": {
+          "@codeType": "固定付加文",
+          "Text": "＊印は気象庁以外の震度観測点についての情報です。",
+          "Code": "0262"
+        },
+        "FreeFormComment": "この地震の付近で地震が連続して発生したため、別の地震によって観測された震度の一部を混在して発表しています（地震毎の震度観測は、定期刊行物をご覧願います）。"
+      }
+    }
+  }
+}

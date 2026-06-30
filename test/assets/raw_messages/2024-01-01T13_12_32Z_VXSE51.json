@@ -1,0 +1,80 @@
+{
+  "Report": {
+    "@xmlns": "http://xml.kishou.go.jp/jmaxml1/",
+    "@xmlns:jmx": "http://xml.kishou.go.jp/jmaxml1/",
+    "Control": {
+      "Title": "震度速報",
+      "DateTime": "2024-01-01T13:12:32Z",
+      "Status": "通常",
+      "EditorialOffice": "気象庁本庁",
+      "PublishingOffice": "気象庁"
+    },
+    "Head": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/informationBasis1/",
+      "Title": "震度速報",
+      "ReportDateTime": "2024-01-01T22:12:00+09:00",
+      "TargetDateTime": "2024-01-01T22:10:00+09:00",
+      "EventID": "20240101221059",
+      "InfoType": "発表",
+      "Serial": null,
+      "InfoKind": "震度速報",
+      "InfoKindVersion": "1.0_1",
+      "Headline": {
+        "Text": "１日２２時１０分ころ、地震による強い揺れを感じました。震度３以上が観測された地域をお知らせします。",
+        "Information": {
+          "@type": "震度速報",
+          "Item": {
+            "Kind": {
+              "Name": "震度３"
+            },
+            "Areas": {
+              "@codeType": "地震情報／細分区域",
+              "Area": {
+                "Name": "石川県能登",
+                "Code": "390"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Body": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/body/seismology1/",
+      "@xmlns:jmx_eb": "http://xml.kishou.go.jp/jmaxml1/elementBasis1/",
+      "Intensity": {
+        "Observation": {
+          "CodeDefine": {
+            "Type": [
+              {
+                "@xpath": "Pref/Code",
+                "#text": "地震情報／都道府県等"
+              },
+              {
+                "@xpath": "Pref/Area/Code",
+                "#text": "地震情報／細分区域"
+              }
+            ]
+          },
+          "MaxInt": "3",
+          "Pref": {
+            "Name": "石川県",
+            "Code": "17",
+            "MaxInt": "3",
+            "Area": {
+              "Name": "石川県能登",
+              "Code": "390",
+              "MaxInt": "3"
+            }
+          }
+        }
+      },
+      "Comments": {
+        "ForecastComment": {
+          "@codeType": "固定付加文",
+          "Text": "今後の情報に注意してください。",
+          "Code": "0217"
+        }
+      }
+    }
+  }
+}

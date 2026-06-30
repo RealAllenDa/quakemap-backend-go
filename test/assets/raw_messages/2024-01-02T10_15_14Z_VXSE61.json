@@ -1,0 +1,64 @@
+{
+  "Report": {
+    "@xmlns": "http://xml.kishou.go.jp/jmaxml1/",
+    "@xmlns:jmx": "http://xml.kishou.go.jp/jmaxml1/",
+    "Control": {
+      "Title": "顕著な地震の震源要素更新のお知らせ",
+      "DateTime": "2024-01-02T10:15:14Z",
+      "Status": "通常",
+      "EditorialOffice": "気象庁本庁",
+      "PublishingOffice": "気象庁"
+    },
+    "Head": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/informationBasis1/",
+      "Title": "顕著な地震の震源要素更新のお知らせ",
+      "ReportDateTime": "2024-01-02T19:15:00+09:00",
+      "TargetDateTime": "2024-01-02T19:15:00+09:00",
+      "EventID": "20240102171347",
+      "InfoType": "発表",
+      "Serial": null,
+      "InfoKind": "震源要素更新のお知らせ",
+      "InfoKindVersion": "1.0_0",
+      "Headline": {
+        "Text": "令和　６年　１月　２日１９時１５分をもって、地震の発生場所と規模を更新します。"
+      }
+    },
+    "Body": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/body/seismology1/",
+      "@xmlns:jmx_eb": "http://xml.kishou.go.jp/jmaxml1/elementBasis1/",
+      "Earthquake": {
+        "OriginTime": "2024-01-02T17:13:00+09:00",
+        "ArrivalTime": "2024-01-02T17:13:00+09:00",
+        "Hypocenter": {
+          "Area": {
+            "Name": "能登半島沖",
+            "Code": {
+              "@type": "震央地名",
+              "#text": "495"
+            },
+            "jmx_eb:Coordinate": [
+              {
+                "@description": "北緯３７．１度　東経１３６．６度　深さ　１０ｋｍ",
+                "@datum": "日本測地系",
+                "#text": "+37.1+136.6-10000/"
+              },
+              {
+                "@type": "震源位置（度分）",
+                "@description": "北緯３７度０８．３分　東経１３６度３８．０分　深さ　　６ｋｍ",
+                "#text": "+3708.3+13638.0-6000/"
+              }
+            ]
+          }
+        },
+        "jmx_eb:Magnitude": {
+          "@type": "Mj",
+          "@description": "Ｍ４．６",
+          "#text": "4.6"
+        }
+      },
+      "Comments": {
+        "FreeFormComment": "度単位の震源要素は、津波情報等を引き続き発表する場合に使用されます。"
+      }
+    }
+  }
+}

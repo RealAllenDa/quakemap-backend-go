@@ -1,0 +1,249 @@
+{
+  "Report": {
+    "@xmlns": "http://xml.kishou.go.jp/jmaxml1/",
+    "@xmlns:jmx": "http://xml.kishou.go.jp/jmaxml1/",
+    "Control": {
+      "Title": "緊急地震速報（地震動予報）",
+      "DateTime": "2024-01-01T07:56:59Z",
+      "Status": "通常",
+      "EditorialOffice": "気象庁本庁",
+      "PublishingOffice": "気象庁"
+    },
+    "Head": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/informationBasis1/",
+      "Title": "緊急地震速報（地震動予報）",
+      "ReportDateTime": "2024-01-01T16:56:59+09:00",
+      "TargetDateTime": "2024-01-01T16:56:59+09:00",
+      "EventID": "20240101165652",
+      "InfoType": "発表",
+      "Serial": "4",
+      "InfoKind": "緊急地震速報",
+      "InfoKindVersion": "1.2_0",
+      "Headline": {
+        "Text": "石川県で地震　北陸で強い揺れ",
+        "Information": [
+          {
+            "@type": "緊急地震速報（地方予報区）",
+            "Item": {
+              "Kind": {
+                "Name": "緊急地震速報（警報）",
+                "Code": "31"
+              },
+              "LastKind": {
+                "Name": "緊急地震速報（警報）",
+                "Code": "31"
+              },
+              "Areas": {
+                "@codeType": "緊急地震速報／地方予報区",
+                "Area": {
+                  "Name": "北陸",
+                  "Code": "9934"
+                }
+              }
+            }
+          },
+          {
+            "@type": "緊急地震速報（府県予報区）",
+            "Item": {
+              "Kind": {
+                "Name": "緊急地震速報（警報）",
+                "Code": "31"
+              },
+              "LastKind": {
+                "Name": "緊急地震速報（警報）",
+                "Code": "31"
+              },
+              "Areas": {
+                "@codeType": "緊急地震速報／府県予報区",
+                "Area": {
+                  "Name": "石川",
+                  "Code": "9170"
+                }
+              }
+            }
+          },
+          {
+            "@type": "緊急地震速報（細分区域）",
+            "Item": {
+              "Kind": {
+                "Name": "緊急地震速報（警報）",
+                "Code": "31"
+              },
+              "LastKind": {
+                "Name": "緊急地震速報（警報）",
+                "Code": "31"
+              },
+              "Areas": {
+                "@codeType": "地震情報／細分区域",
+                "Area": {
+                  "Name": "石川県能登",
+                  "Code": "390"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "Body": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/body/seismology1/",
+      "@xmlns:jmx_eb": "http://xml.kishou.go.jp/jmaxml1/elementBasis1/",
+      "Earthquake": {
+        "OriginTime": "2024-01-01T16:56:50+09:00",
+        "ArrivalTime": "2024-01-01T16:56:52+09:00",
+        "Hypocenter": {
+          "Area": {
+            "Name": "石川県能登地方",
+            "Code": {
+              "@type": "震央地名",
+              "#text": "390"
+            },
+            "jmx_eb:Coordinate": {
+              "@description": "北緯３７．２度　東経１３６．８度　深さ　１０ｋｍ",
+              "@datum": "日本測地系",
+              "#text": "+37.2+136.8-10000/"
+            },
+            "ReduceName": "石川県",
+            "ReduceCode": {
+              "@type": "短縮用震央地名",
+              "#text": "9170"
+            },
+            "LandOrSea": "内陸"
+          },
+          "Accuracy": {
+            "Epicenter": {
+              "@rank": "3",
+              "@rank2": "3",
+              "#text": "NaN"
+            },
+            "Depth": {
+              "@rank": "3",
+              "#text": "NaN"
+            },
+            "MagnitudeCalculation": {
+              "@rank": "4",
+              "#text": "NaN"
+            },
+            "NumberOfMagnitudeCalculation": "1"
+          }
+        },
+        "jmx_eb:Magnitude": {
+          "@type": "Mj",
+          "@description": "Ｍ５．６",
+          "#text": "5.6"
+        }
+      },
+      "Intensity": {
+        "Forecast": {
+          "CodeDefine": {
+            "Type": [
+              {
+                "@xpath": "Pref/Code",
+                "#text": "緊急地震速報／府県予報区"
+              },
+              {
+                "@xpath": "Pref/Area/Code",
+                "#text": "地震情報／細分区域"
+              },
+              {
+                "@xpath": "Pref/Area/Category/Kind/Code",
+                "#text": "緊急地震速報"
+              }
+            ]
+          },
+          "ForecastInt": {
+            "From": "5+",
+            "To": "5+"
+          },
+          "ForecastLgInt": {
+            "From": "1",
+            "To": "1"
+          },
+          "Appendix": {
+            "MaxIntChange": "0",
+            "MaxLgIntChange": "1",
+            "MaxIntChangeReason": "0"
+          },
+          "Pref": [
+            {
+              "Name": "石川",
+              "Code": "9170",
+              "Area": {
+                "Name": "石川県能登",
+                "Code": "390",
+                "Category": {
+                  "Kind": {
+                    "Name": "緊急地震速報（警報）",
+                    "Code": "19"
+                  }
+                },
+                "ForecastInt": {
+                  "From": "5+",
+                  "To": "5+"
+                },
+                "ForecastLgInt": {
+                  "From": "1",
+                  "To": "1"
+                },
+                "ArrivalTime": "2024-01-01T16:56:59+09:00"
+              }
+            },
+            {
+              "Name": "富山",
+              "Code": "9160",
+              "Area": {
+                "Name": "富山県西部",
+                "Code": "381",
+                "Category": {
+                  "Kind": {
+                    "Name": "緊急地震速報（予報）",
+                    "Code": "00"
+                  }
+                },
+                "ForecastInt": {
+                  "From": "4",
+                  "To": "4"
+                },
+                "ForecastLgInt": {
+                  "From": "0",
+                  "To": "0"
+                },
+                "ArrivalTime": "2024-01-01T16:57:02+09:00"
+              }
+            },
+            {
+              "Name": "石川",
+              "Code": "9170",
+              "Area": {
+                "Name": "石川県加賀",
+                "Code": "391",
+                "Category": {
+                  "Kind": {
+                    "Name": "緊急地震速報（予報）",
+                    "Code": "00"
+                  }
+                },
+                "ForecastInt": {
+                  "From": "4",
+                  "To": "4"
+                },
+                "ForecastLgInt": {
+                  "From": "0",
+                  "To": "0"
+                },
+                "ArrivalTime": "2024-01-01T16:57:04+09:00"
+              }
+            }
+          ]
+        }
+      },
+      "Comments": {
+        "WarningComment": {
+          "@codeType": "固定付加文",
+          "Text": "強い揺れに警戒してください。",
+          "Code": "0201"
+        }
+      }
+    }
+  }
+}

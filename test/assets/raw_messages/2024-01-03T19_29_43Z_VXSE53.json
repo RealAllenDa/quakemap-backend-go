@@ -1,0 +1,118 @@
+{
+  "Report": {
+    "@xmlns": "http://xml.kishou.go.jp/jmaxml1/",
+    "@xmlns:jmx": "http://xml.kishou.go.jp/jmaxml1/",
+    "Control": {
+      "Title": "震源・震度に関する情報",
+      "DateTime": "2024-01-03T19:29:43Z",
+      "Status": "通常",
+      "EditorialOffice": "気象庁本庁",
+      "PublishingOffice": "気象庁"
+    },
+    "Head": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/informationBasis1/",
+      "Title": "震源・震度情報",
+      "ReportDateTime": "2024-01-04T04:29:00+09:00",
+      "TargetDateTime": "2024-01-04T04:29:00+09:00",
+      "EventID": "20240104042711",
+      "InfoType": "発表",
+      "Serial": "1",
+      "InfoKind": "地震情報",
+      "InfoKindVersion": "1.0_1",
+      "Headline": {
+        "Text": "４日０４時２７分ころ、地震がありました。"
+      }
+    },
+    "Body": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/body/seismology1/",
+      "@xmlns:jmx_eb": "http://xml.kishou.go.jp/jmaxml1/elementBasis1/",
+      "Earthquake": {
+        "OriginTime": "2024-01-04T04:27:00+09:00",
+        "ArrivalTime": "2024-01-04T04:27:00+09:00",
+        "Hypocenter": {
+          "Area": {
+            "Name": "石川県能登地方",
+            "Code": {
+              "@type": "震央地名",
+              "#text": "390"
+            },
+            "jmx_eb:Coordinate": {
+              "@description": "北緯３７．２度　東経１３６．７度　深さ　１０ｋｍ",
+              "@datum": "日本測地系",
+              "#text": "+37.2+136.7-10000/"
+            }
+          }
+        },
+        "jmx_eb:Magnitude": {
+          "@type": "Mj",
+          "@description": "Ｍ２．８",
+          "#text": "2.8"
+        }
+      },
+      "Intensity": {
+        "Observation": {
+          "CodeDefine": {
+            "Type": [
+              {
+                "@xpath": "Pref/Code",
+                "#text": "地震情報／都道府県等"
+              },
+              {
+                "@xpath": "Pref/Area/Code",
+                "#text": "地震情報／細分区域"
+              },
+              {
+                "@xpath": "Pref/Area/City/Code",
+                "#text": "気象・地震・火山情報／市町村等"
+              },
+              {
+                "@xpath": "Pref/Area/City/IntensityStation/Code",
+                "#text": "震度観測点"
+              }
+            ]
+          },
+          "MaxInt": "1",
+          "Pref": {
+            "Name": "石川県",
+            "Code": "17",
+            "MaxInt": "1",
+            "Area": {
+              "Name": "石川県能登",
+              "Code": "390",
+              "MaxInt": "1",
+              "City": {
+                "Name": "志賀町",
+                "Code": "1738400",
+                "MaxInt": "1",
+                "IntensityStation": [
+                  {
+                    "Name": "志賀町富来領家町",
+                    "Code": "1738400",
+                    "Int": "1"
+                  },
+                  {
+                    "Name": "志賀町香能＊",
+                    "Code": "1738420",
+                    "Int": "1"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "Comments": {
+        "ForecastComment": {
+          "@codeType": "固定付加文",
+          "Text": "この地震による津波の心配はありません。",
+          "Code": "0215"
+        },
+        "VarComment": {
+          "@codeType": "固定付加文",
+          "Text": "＊印は気象庁以外の震度観測点についての情報です。",
+          "Code": "0262"
+        }
+      }
+    }
+  }
+}

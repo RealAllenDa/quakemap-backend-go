@@ -1,0 +1,64 @@
+{
+  "Report": {
+    "@xmlns": "http://xml.kishou.go.jp/jmaxml1/",
+    "@xmlns:jmx": "http://xml.kishou.go.jp/jmaxml1/",
+    "Control": {
+      "Title": "顕著な地震の震源要素更新のお知らせ",
+      "DateTime": "2024-01-01T12:30:19Z",
+      "Status": "通常",
+      "EditorialOffice": "気象庁本庁",
+      "PublishingOffice": "気象庁"
+    },
+    "Head": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/informationBasis1/",
+      "Title": "顕著な地震の震源要素更新のお知らせ",
+      "ReportDateTime": "2024-01-01T21:30:00+09:00",
+      "TargetDateTime": "2024-01-01T21:30:00+09:00",
+      "EventID": "20240101161010",
+      "InfoType": "発表",
+      "Serial": null,
+      "InfoKind": "震源要素更新のお知らせ",
+      "InfoKindVersion": "1.0_0",
+      "Headline": {
+        "Text": "令和　６年　１月　１日２１時３０分をもって、地震の発生場所と規模を更新します。"
+      }
+    },
+    "Body": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/body/seismology1/",
+      "@xmlns:jmx_eb": "http://xml.kishou.go.jp/jmaxml1/elementBasis1/",
+      "Earthquake": {
+        "OriginTime": "2024-01-01T16:10:00+09:00",
+        "ArrivalTime": "2024-01-01T16:10:00+09:00",
+        "Hypocenter": {
+          "Area": {
+            "Name": "石川県能登地方",
+            "Code": {
+              "@type": "震央地名",
+              "#text": "390"
+            },
+            "jmx_eb:Coordinate": [
+              {
+                "@description": "北緯３７．５度　東経１３７．３度　深さ　２０ｋｍ",
+                "@datum": "日本測地系",
+                "#text": "+37.5+137.3-20000/"
+              },
+              {
+                "@type": "震源位置（度分）",
+                "@description": "北緯３７度２９．７分　東経１３７度１６．２分　深さ　１６ｋｍ",
+                "#text": "+3729.7+13716.2-16000/"
+              }
+            ]
+          }
+        },
+        "jmx_eb:Magnitude": {
+          "@type": "Mj",
+          "@description": "Ｍ７．６",
+          "#text": "7.6"
+        }
+      },
+      "Comments": {
+        "FreeFormComment": "度単位の震源要素は、津波情報等を引き続き発表する場合に使用されます。"
+      }
+    }
+  }
+}

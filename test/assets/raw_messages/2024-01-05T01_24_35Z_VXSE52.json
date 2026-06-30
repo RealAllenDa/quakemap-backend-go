@@ -1,0 +1,61 @@
+{
+  "Report": {
+    "@xmlns": "http://xml.kishou.go.jp/jmaxml1/",
+    "@xmlns:jmx": "http://xml.kishou.go.jp/jmaxml1/",
+    "Control": {
+      "Title": "震源に関する情報",
+      "DateTime": "2024-01-05T01:24:35Z",
+      "Status": "通常",
+      "EditorialOffice": "気象庁本庁",
+      "PublishingOffice": "気象庁"
+    },
+    "Head": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/informationBasis1/",
+      "Title": "震源に関する情報",
+      "ReportDateTime": "2024-01-05T10:24:00+09:00",
+      "TargetDateTime": "2024-01-05T10:24:00+09:00",
+      "EventID": "20240105102115",
+      "InfoType": "発表",
+      "Serial": null,
+      "InfoKind": "震源速報",
+      "InfoKindVersion": "1.0_1",
+      "Headline": {
+        "Text": "きょう　５日１０時２１分ころ、地震がありました。"
+      }
+    },
+    "Body": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/body/seismology1/",
+      "@xmlns:jmx_eb": "http://xml.kishou.go.jp/jmaxml1/elementBasis1/",
+      "Earthquake": {
+        "OriginTime": "2024-01-05T10:21:00+09:00",
+        "ArrivalTime": "2024-01-05T10:21:00+09:00",
+        "Hypocenter": {
+          "Area": {
+            "Name": "石川県能登地方",
+            "Code": {
+              "@type": "震央地名",
+              "#text": "390"
+            },
+            "jmx_eb:Coordinate": {
+              "@description": "北緯３７．５度　東経１３７．２度　深さ　１０ｋｍ",
+              "@datum": "日本測地系",
+              "#text": "+37.5+137.2-10000/"
+            }
+          }
+        },
+        "jmx_eb:Magnitude": {
+          "@type": "Mj",
+          "@description": "Ｍ３．９",
+          "#text": "3.9"
+        }
+      },
+      "Comments": {
+        "ForecastComment": {
+          "@codeType": "固定付加文",
+          "Text": "この地震による津波の心配はありません。",
+          "Code": "0215"
+        }
+      }
+    }
+  }
+}

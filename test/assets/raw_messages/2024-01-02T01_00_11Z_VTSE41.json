@@ -1,0 +1,511 @@
+{
+  "Report": {
+    "@xmlns": "http://xml.kishou.go.jp/jmaxml1/",
+    "@xmlns:jmx": "http://xml.kishou.go.jp/jmaxml1/",
+    "Control": {
+      "Title": "津波警報・注意報・予報a",
+      "DateTime": "2024-01-02T01:00:11Z",
+      "Status": "通常",
+      "EditorialOffice": "気象庁本庁",
+      "PublishingOffice": "気象庁"
+    },
+    "Head": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/informationBasis1/",
+      "Title": "津波予報",
+      "ReportDateTime": "2024-01-02T10:00:00+09:00",
+      "TargetDateTime": "2024-01-02T10:00:00+09:00",
+      "ValidDateTime": "2024-01-02T17:00:00+09:00",
+      "EventID": "20240101161010",
+      "InfoType": "発表",
+      "Serial": null,
+      "InfoKind": "津波警報・注意報・予報",
+      "InfoKindVersion": "1.0_1",
+      "Headline": {
+        "Text": "津波注意報を解除しました。"
+      }
+    },
+    "Body": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/body/seismology1/",
+      "@xmlns:jmx_eb": "http://xml.kishou.go.jp/jmaxml1/elementBasis1/",
+      "Tsunami": {
+        "Forecast": {
+          "CodeDefine": {
+            "Type": [
+              {
+                "@xpath": "Item/Area/Code",
+                "#text": "津波予報区"
+              },
+              {
+                "@xpath": "Item/Category/Kind/Code",
+                "#text": "警報等情報要素／津波警報・注意報・予報"
+              },
+              {
+                "@xpath": "Item/Category/LastKind/Code",
+                "#text": "警報等情報要素／津波警報・注意報・予報"
+              }
+            ]
+          },
+          "Item": [
+            {
+              "Area": {
+                "Name": "北海道太平洋沿岸中部",
+                "Code": "101"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "71"
+                },
+                "LastKind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "71"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "北海道太平洋沿岸西部",
+                "Code": "102"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "72"
+                },
+                "LastKind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "北海道日本海沿岸北部",
+                "Code": "110"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "72"
+                },
+                "LastKind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "北海道日本海沿岸南部",
+                "Code": "111"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "72"
+                },
+                "LastKind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "オホーツク海沿岸",
+                "Code": "120"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "71"
+                },
+                "LastKind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "71"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "青森県日本海沿岸",
+                "Code": "200"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "72"
+                },
+                "LastKind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "青森県太平洋沿岸",
+                "Code": "201"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "71"
+                },
+                "LastKind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "71"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "陸奥湾",
+                "Code": "202"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "71"
+                },
+                "LastKind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "71"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "秋田県",
+                "Code": "230"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "72"
+                },
+                "LastKind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "山形県",
+                "Code": "240"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "72"
+                },
+                "LastKind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "新潟県上中下越",
+                "Code": "340"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "72"
+                },
+                "LastKind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "佐渡",
+                "Code": "341"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "72"
+                },
+                "LastKind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "富山県",
+                "Code": "350"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "72"
+                },
+                "LastKind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "石川県能登",
+                "Code": "360"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "72"
+                },
+                "LastKind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "石川県加賀",
+                "Code": "361"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "72"
+                },
+                "LastKind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "福井県",
+                "Code": "370"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "72"
+                },
+                "LastKind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "京都府",
+                "Code": "500"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "72"
+                },
+                "LastKind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "兵庫県北部",
+                "Code": "520"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "72"
+                },
+                "LastKind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "鳥取県",
+                "Code": "540"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "72"
+                },
+                "LastKind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "島根県出雲・石見",
+                "Code": "550"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "72"
+                },
+                "LastKind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "隠岐",
+                "Code": "551"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "71"
+                },
+                "LastKind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "72"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "山口県日本海沿岸",
+                "Code": "700"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "71"
+                },
+                "LastKind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "72"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "福岡県日本海沿岸",
+                "Code": "711"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "71"
+                },
+                "LastKind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "71"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "佐賀県北部",
+                "Code": "720"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "71"
+                },
+                "LastKind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "71"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "長崎県西方",
+                "Code": "730"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "71"
+                },
+                "LastKind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "71"
+                }
+              }
+            },
+            {
+              "Area": {
+                "Name": "壱岐・対馬",
+                "Code": "731"
+              },
+              "Category": {
+                "Kind": {
+                  "Name": "津波予報（若干の海面変動）",
+                  "Code": "72"
+                },
+                "LastKind": {
+                  "Name": "津波注意報",
+                  "Code": "62"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Earthquake": {
+        "OriginTime": "2024-01-01T16:10:00+09:00",
+        "ArrivalTime": "2024-01-01T16:10:00+09:00",
+        "Hypocenter": {
+          "Area": {
+            "Name": "石川県能登地方",
+            "Code": {
+              "@type": "震央地名",
+              "#text": "390"
+            },
+            "jmx_eb:Coordinate": {
+              "@description": "北緯３７．５度　東経１３７．３度　深さ　２０ｋｍ",
+              "@datum": "日本測地系",
+              "#text": "+37.5+137.3-20000/"
+            },
+            "NameFromMark": "輪島の東北東３０ｋｍ付近",
+            "MarkCode": {
+              "@type": "震央補助",
+              "#text": "308"
+            },
+            "Direction": "東北東",
+            "Distance": {
+              "@unit": "km",
+              "#text": "30"
+            }
+          }
+        },
+        "jmx_eb:Magnitude": {
+          "@type": "Mj",
+          "@description": "Ｍ７．６",
+          "#text": "7.6"
+        }
+      },
+      "Text": "［海面変動の見通し］\n　　１日１６時１０分に発生した石川県能登地方を震源とする地震の津波注意報は、これ以上津波が大きくならないと判断し、１０時００分に全て解除しました。\n　これらの沿岸では津波に伴う海面変動が観測されておりますので、今後１日程度は継続する可能性が高いと考えられます。\n［留意事項］\n　津波注意報が発表されていたことや、津波が観測されていることについては、これまでの情報等により十分に認識されていると考えられます。\nまた、これ以上津波が高くなる可能性は小さくなったと見られます。\n今後１日程度は海面変動が継続すると考えられますが、そのことを十分認識した上で行動頂ければ、津波による災害のおそれはないと見られることから津波注意報を解除しました。　海に入っての作業や釣り、海水浴などに際しては十分な留意が必要です。",
+      "Comments": {
+        "WarningComment": {
+          "@codeType": "固定付加文",
+          "Text": "＜津波予報（若干の海面変動）＞\n若干の海面変動が予想されますが、被害の心配はありません。\n　\n今後もしばらく海面変動が続くと思われますので、海水浴や磯釣り等を行う際は注意してください。\n　\n現在、大津波警報・津波警報・津波注意報を発表している沿岸はありません。",
+          "Code": "0124 0104 0107"
+        }
+      }
+    }
+  }
+}

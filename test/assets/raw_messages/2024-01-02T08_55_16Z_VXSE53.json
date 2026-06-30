@@ -1,0 +1,197 @@
+{
+  "Report": {
+    "@xmlns": "http://xml.kishou.go.jp/jmaxml1/",
+    "@xmlns:jmx": "http://xml.kishou.go.jp/jmaxml1/",
+    "Control": {
+      "Title": "震源・震度に関する情報",
+      "DateTime": "2024-01-02T08:55:16Z",
+      "Status": "通常",
+      "EditorialOffice": "気象庁本庁",
+      "PublishingOffice": "気象庁"
+    },
+    "Head": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/informationBasis1/",
+      "Title": "震源・震度情報",
+      "ReportDateTime": "2024-01-02T17:55:00+09:00",
+      "TargetDateTime": "2024-01-02T17:55:00+09:00",
+      "EventID": "20240102175209",
+      "InfoType": "発表",
+      "Serial": "1",
+      "InfoKind": "地震情報",
+      "InfoKindVersion": "1.0_1",
+      "Headline": {
+        "Text": "２日１７時５２分ころ、地震がありました。"
+      }
+    },
+    "Body": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/body/seismology1/",
+      "@xmlns:jmx_eb": "http://xml.kishou.go.jp/jmaxml1/elementBasis1/",
+      "Earthquake": {
+        "OriginTime": "2024-01-02T17:52:00+09:00",
+        "ArrivalTime": "2024-01-02T17:52:00+09:00",
+        "Hypocenter": {
+          "Area": {
+            "Name": "佐渡付近",
+            "Code": {
+              "@type": "震央地名",
+              "#text": "498"
+            },
+            "jmx_eb:Coordinate": {
+              "@description": "北緯３７．７度　東経１３７．７度　深さ　１０ｋｍ",
+              "@datum": "日本測地系",
+              "#text": "+37.7+137.7-10000/"
+            }
+          }
+        },
+        "jmx_eb:Magnitude": {
+          "@type": "Mj",
+          "@description": "Ｍ４．２",
+          "#text": "4.2"
+        }
+      },
+      "Intensity": {
+        "Observation": {
+          "CodeDefine": {
+            "Type": [
+              {
+                "@xpath": "Pref/Code",
+                "#text": "地震情報／都道府県等"
+              },
+              {
+                "@xpath": "Pref/Area/Code",
+                "#text": "地震情報／細分区域"
+              },
+              {
+                "@xpath": "Pref/Area/City/Code",
+                "#text": "気象・地震・火山情報／市町村等"
+              },
+              {
+                "@xpath": "Pref/Area/City/IntensityStation/Code",
+                "#text": "震度観測点"
+              }
+            ]
+          },
+          "MaxInt": "1",
+          "Pref": [
+            {
+              "Name": "新潟県",
+              "Code": "15",
+              "MaxInt": "1",
+              "Area": [
+                {
+                  "Name": "新潟県上越",
+                  "Code": "370",
+                  "MaxInt": "1",
+                  "City": {
+                    "Name": "上越市",
+                    "Code": "1522200",
+                    "MaxInt": "1",
+                    "IntensityStation": {
+                      "Name": "上越市牧区柳島＊",
+                      "Code": "1522234",
+                      "Int": "1"
+                    }
+                  }
+                },
+                {
+                  "Name": "新潟県中越",
+                  "Code": "371",
+                  "MaxInt": "1",
+                  "City": [
+                    {
+                      "Name": "長岡市",
+                      "Code": "1520200",
+                      "MaxInt": "1",
+                      "IntensityStation": [
+                        {
+                          "Name": "長岡市浦＊",
+                          "Code": "1520231",
+                          "Int": "1"
+                        },
+                        {
+                          "Name": "長岡市中之島＊",
+                          "Code": "1520245",
+                          "Int": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "柏崎市",
+                      "Code": "1520500",
+                      "MaxInt": "1",
+                      "IntensityStation": {
+                        "Name": "柏崎市西山町池浦＊",
+                        "Code": "1520534",
+                        "Int": "1"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Name": "新潟県下越",
+                  "Code": "372",
+                  "MaxInt": "1",
+                  "City": {
+                    "Name": "阿賀町",
+                    "Code": "1538500",
+                    "MaxInt": "1",
+                    "IntensityStation": {
+                      "Name": "阿賀町鹿瀬中学校＊",
+                      "Code": "1538520",
+                      "Int": "1"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "Name": "石川県",
+              "Code": "17",
+              "MaxInt": "1",
+              "Area": {
+                "Name": "石川県能登",
+                "Code": "390",
+                "MaxInt": "1",
+                "City": [
+                  {
+                    "Name": "七尾市",
+                    "Code": "1720200",
+                    "MaxInt": "1",
+                    "IntensityStation": {
+                      "Name": "七尾市本府中町",
+                      "Code": "1720200",
+                      "Int": "1"
+                    }
+                  },
+                  {
+                    "Name": "輪島市",
+                    "Code": "1720400",
+                    "MaxInt": "1",
+                    "IntensityStation": {
+                      "Name": "輪島市舳倉島",
+                      "Code": "1720401",
+                      "Int": "1"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "Comments": {
+        "ForecastComment": {
+          "@codeType": "固定付加文",
+          "Text": "この地震による津波の心配はありません。",
+          "Code": "0215"
+        },
+        "VarComment": {
+          "@codeType": "固定付加文",
+          "Text": "＊印は気象庁以外の震度観測点についての情報です。",
+          "Code": "0262"
+        },
+        "FreeFormComment": "なお、この海域は、1日16時10分に発生した石川県能登地方の地震により、今後もしばらく海面変動が続くと思われますので、海水浴や海釣り等を行う際は十分注意してください。"
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "Report": {
+    "@xmlns": "http://xml.kishou.go.jp/jmaxml1/",
+    "@xmlns:jmx": "http://xml.kishou.go.jp/jmaxml1/",
+    "Control": {
+      "Title": "震源に関する情報",
+      "DateTime": "2024-01-02T08:17:13Z",
+      "Status": "通常",
+      "EditorialOffice": "気象庁本庁",
+      "PublishingOffice": "気象庁"
+    },
+    "Head": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/informationBasis1/",
+      "Title": "震源に関する情報",
+      "ReportDateTime": "2024-01-02T17:17:00+09:00",
+      "TargetDateTime": "2024-01-02T17:17:00+09:00",
+      "EventID": "20240102171347",
+      "InfoType": "発表",
+      "Serial": null,
+      "InfoKind": "震源速報",
+      "InfoKindVersion": "1.0_1",
+      "Headline": {
+        "Text": "きょう　２日１７時１３分ころ、地震がありました。"
+      }
+    },
+    "Body": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/body/seismology1/",
+      "@xmlns:jmx_eb": "http://xml.kishou.go.jp/jmaxml1/elementBasis1/",
+      "Earthquake": {
+        "OriginTime": "2024-01-02T17:13:00+09:00",
+        "ArrivalTime": "2024-01-02T17:13:00+09:00",
+        "Hypocenter": {
+          "Area": {
+            "Name": "能登半島沖",
+            "Code": {
+              "@type": "震央地名",
+              "#text": "495"
+            },
+            "jmx_eb:Coordinate": {
+              "@description": "北緯３７．２度　東経１３６．６度　深さ　１０ｋｍ",
+              "@datum": "日本測地系",
+              "#text": "+37.2+136.6-10000/"
+            }
+          }
+        },
+        "jmx_eb:Magnitude": {
+          "@type": "Mj",
+          "@description": "Ｍ４．６",
+          "#text": "4.6"
+        }
+      },
+      "Comments": {
+        "ForecastComment": {
+          "@codeType": "固定付加文",
+          "Text": "この地震による津波の心配はありません。",
+          "Code": "0215"
+        }
+      }
+    }
+  }
+}

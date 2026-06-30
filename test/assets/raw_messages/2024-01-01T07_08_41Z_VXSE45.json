@@ -1,0 +1,76 @@
+{
+  "Report": {
+    "@xmlns": "http://xml.kishou.go.jp/jmaxml1/",
+    "@xmlns:jmx": "http://xml.kishou.go.jp/jmaxml1/",
+    "Control": {
+      "Title": "緊急地震速報（地震動予報）",
+      "DateTime": "2024-01-01T07:08:41Z",
+      "Status": "通常",
+      "EditorialOffice": "気象庁本庁",
+      "PublishingOffice": "気象庁"
+    },
+    "Head": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/informationBasis1/",
+      "Title": "緊急地震速報（地震動予報）",
+      "ReportDateTime": "2024-01-01T16:08:41+09:00",
+      "TargetDateTime": "2024-01-01T16:08:41+09:00",
+      "EventID": "20240101160831",
+      "InfoType": "発表",
+      "Serial": "2",
+      "InfoKind": "緊急地震速報",
+      "InfoKindVersion": "1.2_0",
+      "Headline": {
+        "Text": null
+      }
+    },
+    "Body": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/body/seismology1/",
+      "@xmlns:jmx_eb": "http://xml.kishou.go.jp/jmaxml1/elementBasis1/",
+      "Earthquake": {
+        "OriginTime": "2024-01-01T16:08:29+09:00",
+        "Condition": "仮定震源要素",
+        "ArrivalTime": "2024-01-01T16:08:31+09:00",
+        "Hypocenter": {
+          "Area": {
+            "Name": "富山湾",
+            "Code": {
+              "@type": "震央地名",
+              "#text": "497"
+            },
+            "jmx_eb:Coordinate": {
+              "@description": "北緯３７．４度　東経１３７．４度　深さ　１０ｋｍ",
+              "@datum": "日本測地系",
+              "#text": "+37.4+137.4-10000/"
+            },
+            "ReduceName": "富山湾",
+            "ReduceCode": {
+              "@type": "短縮用震央地名",
+              "#text": "9778"
+            }
+          },
+          "Accuracy": {
+            "Epicenter": {
+              "@rank": "1",
+              "@rank2": "1",
+              "#text": "NaN"
+            },
+            "Depth": {
+              "@rank": "1",
+              "#text": "NaN"
+            },
+            "MagnitudeCalculation": {
+              "@rank": "8",
+              "#text": "NaN"
+            },
+            "NumberOfMagnitudeCalculation": "1"
+          }
+        },
+        "jmx_eb:Magnitude": {
+          "@type": "Mj",
+          "@description": "Ｍ１．０",
+          "#text": "1.0"
+        }
+      }
+    }
+  }
+}

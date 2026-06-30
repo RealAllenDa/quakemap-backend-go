@@ -1,0 +1,216 @@
+{
+  "Report": {
+    "@xmlns": "http://xml.kishou.go.jp/jmaxml1/",
+    "@xmlns:jmx": "http://xml.kishou.go.jp/jmaxml1/",
+    "Control": {
+      "Title": "震源・震度に関する情報",
+      "DateTime": "2024-01-01T12:00:37Z",
+      "Status": "通常",
+      "EditorialOffice": "大阪管区気象台",
+      "PublishingOffice": "気象庁"
+    },
+    "Head": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/informationBasis1/",
+      "Title": "震源・震度情報",
+      "ReportDateTime": "2024-01-01T21:00:00+09:00",
+      "TargetDateTime": "2024-01-01T21:00:00+09:00",
+      "EventID": "20240101205728",
+      "InfoType": "発表",
+      "Serial": "1",
+      "InfoKind": "地震情報",
+      "InfoKindVersion": "1.0_1",
+      "Headline": {
+        "Text": "１日２０時５７分ころ、地震がありました。"
+      }
+    },
+    "Body": {
+      "@xmlns": "http://xml.kishou.go.jp/jmaxml1/body/seismology1/",
+      "@xmlns:jmx_eb": "http://xml.kishou.go.jp/jmaxml1/elementBasis1/",
+      "Earthquake": {
+        "OriginTime": "2024-01-01T20:57:00+09:00",
+        "ArrivalTime": "2024-01-01T20:57:00+09:00",
+        "Hypocenter": {
+          "Area": {
+            "Name": "能登半島沖",
+            "Code": {
+              "@type": "震央地名",
+              "#text": "495"
+            },
+            "jmx_eb:Coordinate": {
+              "@description": "北緯３７．６度　東経１３７．４度　深さ　１０ｋｍ",
+              "@datum": "日本測地系",
+              "#text": "+37.6+137.4-10000/"
+            }
+          }
+        },
+        "jmx_eb:Magnitude": {
+          "@type": "Mj",
+          "@description": "Ｍ４．５",
+          "#text": "4.5"
+        }
+      },
+      "Intensity": {
+        "Observation": {
+          "CodeDefine": {
+            "Type": [
+              {
+                "@xpath": "Pref/Code",
+                "#text": "地震情報／都道府県等"
+              },
+              {
+                "@xpath": "Pref/Area/Code",
+                "#text": "地震情報／細分区域"
+              },
+              {
+                "@xpath": "Pref/Area/City/Code",
+                "#text": "気象・地震・火山情報／市町村等"
+              },
+              {
+                "@xpath": "Pref/Area/City/IntensityStation/Code",
+                "#text": "震度観測点"
+              }
+            ]
+          },
+          "MaxInt": "2",
+          "Pref": [
+            {
+              "Name": "石川県",
+              "Code": "17",
+              "MaxInt": "2",
+              "Area": {
+                "Name": "石川県能登",
+                "Code": "390",
+                "MaxInt": "2",
+                "City": [
+                  {
+                    "Name": "珠洲市",
+                    "Code": "1720500",
+                    "MaxInt": "2",
+                    "IntensityStation": [
+                      {
+                        "Name": "珠洲市正院町＊",
+                        "Code": "1720520",
+                        "Int": "2"
+                      },
+                      {
+                        "Name": "珠洲市大谷町＊",
+                        "Code": "1720521",
+                        "Int": "1"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "七尾市",
+                    "Code": "1720200",
+                    "MaxInt": "1",
+                    "IntensityStation": {
+                      "Name": "七尾市本府中町",
+                      "Code": "1720200",
+                      "Int": "1"
+                    }
+                  },
+                  {
+                    "Name": "輪島市",
+                    "Code": "1720400",
+                    "MaxInt": "1",
+                    "IntensityStation": {
+                      "Name": "輪島市鳳至町",
+                      "Code": "1720402",
+                      "Int": "1"
+                    }
+                  },
+                  {
+                    "Name": "志賀町",
+                    "Code": "1738400",
+                    "MaxInt": "1",
+                    "IntensityStation": {
+                      "Name": "志賀町富来領家町",
+                      "Code": "1738400",
+                      "Int": "1"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Name": "新潟県",
+              "Code": "15",
+              "MaxInt": "1",
+              "Area": {
+                "Name": "新潟県上越",
+                "Code": "370",
+                "MaxInt": "1",
+                "City": [
+                  {
+                    "Name": "糸魚川市",
+                    "Code": "1521600",
+                    "MaxInt": "1",
+                    "IntensityStation": {
+                      "Name": "糸魚川市能生＊",
+                      "Code": "1521633",
+                      "Int": "1"
+                    }
+                  },
+                  {
+                    "Name": "上越市",
+                    "Code": "1522200",
+                    "MaxInt": "1",
+                    "IntensityStation": {
+                      "Name": "上越市安塚区安塚＊",
+                      "Code": "1522231",
+                      "Int": "1"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Name": "富山県",
+              "Code": "16",
+              "MaxInt": "1",
+              "Area": {
+                "Name": "富山県東部",
+                "Code": "380",
+                "MaxInt": "1",
+                "City": [
+                  {
+                    "Name": "富山市",
+                    "Code": "1620100",
+                    "MaxInt": "1",
+                    "IntensityStation": {
+                      "Name": "富山市新桜町＊",
+                      "Code": "1620130",
+                      "Int": "1"
+                    }
+                  },
+                  {
+                    "Name": "富山朝日町",
+                    "Code": "1634300",
+                    "MaxInt": "1",
+                    "IntensityStation": {
+                      "Name": "富山朝日町道下",
+                      "Code": "1634300",
+                      "Int": "1"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "Comments": {
+        "ForecastComment": {
+          "@codeType": "固定付加文",
+          "Text": "津波警報等（大津波警報・津波警報あるいは津波注意報）を発表中です。",
+          "Code": "0211"
+        },
+        "VarComment": {
+          "@codeType": "固定付加文",
+          "Text": "＊印は気象庁以外の震度観測点についての情報です。",
+          "Code": "0262"
+        }
+      }
+    }
+  }
+}
